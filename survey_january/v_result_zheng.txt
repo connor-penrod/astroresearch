@@ -1,0 +1,165 @@
+
+466002	, merger	, nearby	, off_center	, irregular
+466005	, compact	, Comment: Some_Structure?
+466009	, merger	, nearby	, irregular	, Comment: Multi-System
+466011	, merger	, nearby	, Comment: ClosePair
+466017	, compact	, irregular	, Comment: LateTypeMerger?
+466021	, merger	, irregular
+466024	, nearby	, irregular	, diffuse
+466025	, merger	, nearby	, irregular	, Comment: Multi-System?
+466026	, compact	, off_center
+466027	, merger	, irregular	, Comment: LateTypeMerger?
+466028	, problematic	, Comment: FakeNBsourceORbadHSTdata?
+466034	, nearby	, compact	, off_center	, Comment: NearbyFaintObjects
+466042	, merger	, nearby	, off_center	, irregular	, Comment: Multi-System?
+466043	, merger	, nearby	, off_center	, irregular	, Comment: Multi-System?
+466047	, merger	, nearby	, compact	, Comment: Multi-System?
+466049	, nearby	, off_center	, problematic	, Comment: FakeNBsourceORbadHSTdata?
+466050	, merger	, nearby	, off_center	, irregular	, diffuse	, Comment: Off-Center-R-0.7arcsec
+466056	, merger	, irregular	, Comment: Merger-and-Pair
+466058	, merger	, nearby	, off_center	, irregular	, Comment: Multi-System?
+466059	, merger	, nearby	, off_center	, irregular	, Comment: PairTail?
+466060	, problematic	, Comment: FakeNBsource?
+466063	, problematic	, Comment: FakeNBsourceORbadHSTdata
+466065	, merger	, irregular	, Comment: Merger-and-Pair
+466067	, merger	, irregular	, Comment: Merger-and-Pair
+466068	, problematic	, Comment: FakeNBsource?
+466069	, merger	, nearby	, irregular	, Comment: Merger-and-Pair
+466070	, nearby	, compact
+466075	, merger	, nearby	, irregular	, Comment: Merger-and-Pair
+466076	, merger	, nearby	, off_center	, irregular	, Comment: 4-galaxy-merger?
+466077	, merger	, nearby	, off_center	, irregular	, Comment: 4-galaxy-merger?
+466078	, merger	, nearby	, off_center	, irregular	, Comment: Merger-and-Pair
+466082	, compact	, Comment: With-a-tail?
+466084	, compact
+466086	, merger	, off_center	, irregular	, Comment: Merger-and-Pair
+466088	, merger	, nearby	, off_center	, irregular	, Comment: Merger-and-Pair
+466090	, merger	, off_center	, irregular	, Comment: SourceWithStructure
+466092	, problematic	, diffuse	, Comment: FakeNBsource?
+466095	, merger	, off_center	, irregular	, Comment: Merger-and-Pair
+466096	, merger	, nearby	, off_center	, irregular	, Comment: Merger-and-Pair
+466097	, merger	, nearby	, compact	, Comment: Merger-and-Pair
+466105	, merger	, nearby	, irregular	, Comment: StrangeMerger
+466108	, problematic
+466109	, compact	, Comment: Star-or-Quasar?
+466110	, nearby	, problematic	, Comment: FakeNBsource-or-FaintSignal?
+466112	, compact
+466114	, compact	, Comment: Compact-or-LateTypeMerger?
+466116	, merger	, nearby	, irregular	, Comment: 2-galaxy-merger?
+466117	, nearby	, off_center	, irregular	, diffuse
+466118	, nearby	, off_center	, irregular	, Comment: LateTypeMerger?
+466122	, merger	, Comment: Merger-and-Pair
+466123	, merger	, nearby	, off_center	, irregular	, Comment: Off-center-Merger
+466126	, merger	, nearby	, off_center	, irregular	, Comment: Late-type-merger
+466128	, merger	, nearby	, off_center	, irregular
+466131	, merger	, nearby	, off_center	, Comment: Multi-System
+466132	, merger	, nearby	, off_center	, irregular	, Comment: Merger-and-Pair
+466134	, merger	, nearby	, off_center	, irregular	, Comment: Merger-and-Pair
+466136	, diffuse	, Comment: FakeNBsource?
+466137	, merger	, nearby	, off_center	, irregular
+466140	, compact
+466143	, nearby	, compact	, off_center
+466145	, off_center	, diffuse
+466146	, off_center	, irregular	, Comment: Point-with-Tail?
+466154	, problematic	, Comment: FakeNBsource?
+466155	, nearby	, off_center	, irregular
+466156	, problematic
+466158	, nearby	, off_center	, irregular
+466162	, compact	, Comment: StructureorLatetypeMerger?
+466164	, merger	, irregular
+466174	, problematic
+466175	, compact
+466178	, merger	, nearby	, off_center	, irregular
+466179	, problematic	, diffuse
+466183	, irregular	, diffuse
+466184	, merger	, nearby	, off_center	, irregular
+466186	, merger	, nearby	, irregular
+466187	, merger	, nearby	, irregular	, Comment: Merger-and-Longtail
+466190	, problematic	, Comment: FakeNBsource?
+466191	, compact
+466192	, merger	, nearby	, irregular
+466194	, merger	, nearby	, irregular
+466195	, problematic	, Comment: FakeNBsource?
+466196	, nearby	, off_center	, irregular	, Comment: Off-center-Distance-0.8arcsec
+466198	, problematic	, Comment: FakeNBsource?
+466208	, merger	, nearby	, irregular	, Comment: Multi-System
+466210	, merger	, nearby	, off_center	, irregular
+466211	, merger	, nearby	, Comment: Merger-and-Pair
+466212	, nearby	, off_center	, irregular	, Comment: Off-center-Distance-0.6arcsec
+470006	, merger	, nearby	, irregular
+470008	, merger	, nearby	, irregular
+470010	, merger	, nearby	, irregular
+470011	, merger	, nearby	, off_center	, irregular
+470013	, merger	, nearby	, irregular
+470014	, compact
+470017	, merger	, irregular	, Comment: LateTypeMerger-or-CompactwithTail
+470019	, merger	, nearby	, irregular	, Comment: MergerwithDiffuseStructure
+470028	, merger
+470029	, merger	, Comment: LateTypeMerger
+470031	, merger	, nearby	, irregular	, Comment: Multi-System
+470032	, merger	, Comment: MergerPair-or-CompactwithTail
+470033	, nearby	, compact
+470034	, merger	, nearby	, irregular
+470035	, merger	, nearby	, irregular
+470036	, merger	, nearby	, irregular
+470038	, compact
+470039	, merger	, Comment: Bad-Coordinates
+470041	, merger	, irregular	, Comment: PointWithTail-or-Merger?
+470047	, merger	, irregular
+470049	, compact
+470050	, merger	, nearby	, off_center	, irregular
+470056	, problematic
+470057	, problematic
+470065	, merger	, nearby	, off_center	, irregular
+470067	, nearby	, compact
+470070	, compact
+470071	, problematic	, Comment: FakeNBsource
+470072	, merger	, nearby	, irregular	, Comment: Multi-System
+470075	, merger	, nearby	, irregular	, Comment: Multi-System
+470076	, merger	, nearby	, off_center	, Comment: Late-Type-Merger?
+470081	, merger	, nearby	, off_center	, irregular
+470085	, compact
+470089	, merger	, off_center	, Comment: Tail-or-Merger?
+470091	, problematic
+470092	, compact
+470093	, compact
+470100	, merger	, nearby	, irregular
+470101	, compact
+470105	, diffuse
+470108	, compact
+470111	, compact
+470112	, merger	, nearby	, irregular
+470116	, merger	, nearby	, irregular
+470117	, compact
+470121	, merger	, off_center
+470129	, compact	, off_center
+470133	, off_center	, irregular
+470136	, compact
+470137	, problematic
+470139	, compact
+470142	, compact
+475002	, merger	, Comment: Merger-or-Tail?
+475003	, merger	, irregular
+475006	, compact	, off_center
+475009	, merger	, irregular
+475010	, nearby	, compact
+475012	, merger	, nearby	, compact	, diffuse
+475014	, merger	, nearby
+475016	, merger	, nearby	, off_center	, irregular	, Comment: Multi-System
+475026	, merger	, nearby	, compact	, off_center
+475031	, compact
+475033	, compact
+475039	, diffuse
+475040	, nearby	, diffuse
+475045	, merger	, nearby	, irregular
+475053	, compact
+475067	, compact	, off_center
+475075	, merger	, nearby	, irregular
+475080	, compact	, off_center
+475083	, merger	, off_center
+475087	, compact
+475091	, problematic	, diffuse
+475097	, compact	, off_center
+475101	, problematic
+475102	, problematic
+475121	, compact	, off_center

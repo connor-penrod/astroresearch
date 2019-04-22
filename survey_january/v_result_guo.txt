@@ -1,0 +1,164 @@
+466002	, merger	, nearby	, off_center	, Comment: Not sure which one is the one
+466005	, compact
+466009	, merger	, nearby	, irregular
+466011	, merger
+466017	, compact
+466021	, merger	, compact
+466024	, off_center	, diffuse
+466025	, nearby
+466026	, compact
+466027	, compact
+466028	, problematic	, Comment: No obvious counterpart
+466034	, compact	, diffuse
+466042	, diffuse
+466043	, compact	, Comment: multiple source not sure which one
+466047	, nearby	, compact
+466049	, problematic
+466050	, merger	, diffuse
+466056	, merger
+466058	, merger	, nearby
+466059	, nearby	, compact
+466060	, problematic	, Comment: Not sure which one
+466063	, problematic	, Comment: No source
+466065	, merger	, compact
+466067	, merger	, compact
+466068	, off_center	, Comment: Not sure which one
+466069	, merger	, nearby	, compact
+466070	, nearby	, compact	, diffuse
+466075	, nearby
+466076	, merger	, irregular
+466077	, Comment: elongated clumpy
+466078	, merger	, nearby
+466082	, nearby	, compact
+466084	, compact
+466086	, merger
+466088	, nearby
+466090	, nearby	, off_center
+466092	, problematic	, Comment: no obvious source
+466095	, nearby	, compact
+466096	, nearby
+466097	, nearby
+466105	, merger	, nearby	, irregular
+466108	, Comment: no obvious source
+466109	, Comment: point-like source (x-ray? star?)
+466110	, compact	, off_center	, diffuse
+466112	, compact
+466114	, compact
+466116	, nearby
+466117	, compact	, off_center
+466118
+466122
+466123	, compact	, off_center	, Comment: multiple source not sure which one
+466126	, nearby	, compact
+466128	, nearby
+466131	, merger	, nearby	, irregular
+466132	, merger
+466134	, merger	, nearby
+466136	, problematic	, Comment: not sure which one
+466137	, merger
+466140	, compact
+466143	, compact
+466145	, problematic	, diffuse
+466146	, nearby
+466154	, problematic	, Comment: no obvious source
+466155	, nearby	, diffuse
+466156	, problematic	, Comment: no obvious source
+466158	, off_center
+466162	, compact
+466164
+466174	, problematic	, Comment: no obvious source
+466175	, compact
+466178	, nearby
+466179	, problematic	, Comment: no obvious source
+466183	, diffuse
+466184	, compact
+466186	, merger
+466187	, merger
+466190	, problematic	, Comment: no obvious source
+466191	, compact
+466192	, merger	, irregular
+466194	, diffuse
+466195	, problematic	, Comment: no obvious source
+466196	, compact	, off_center
+466198	, compact	, off_center
+466208	, merger	, irregular
+466210	, diffuse
+466211	, nearby
+466212	, nearby
+470006	, merger	, nearby
+470008	, merger	, nearby	, irregular
+470010	, merger	, nearby	, irregular
+470011	, merger	, nearby	, irregular
+470013	, merger
+470014
+470017	, compact
+470019	, merger	, irregular	, diffuse
+470028	, merger	, irregular
+470029	, compact
+470031	, merger	, irregular
+470032	, compact
+470033	, nearby	, compact
+470034	, Comment: elongated
+470035	, nearby	, irregular
+470036	, merger	, nearby	, diffuse
+470038	, nearby	, compact
+470039
+470041	, compact
+470047
+470049	, compact
+470050	, nearby	, compact
+470056	, problematic	, Comment: no obvious source
+470057	, problematic	, Comment: no obvious source
+470065	, merger	, nearby
+470067	, nearby	, compact	, diffuse
+470070	, compact
+470071	, off_center	, problematic	, Comment: no obvious source
+470072	, merger	, nearby	, irregular
+470075	, merger	, nearby	, irregular
+470076	, nearby
+470081	, merger	, nearby
+470085	, compact
+470089	, compact	, off_center
+470091	, compact	, off_center	, Comment: very off-center
+470092	, nearby
+470093	, nearby
+470100	, compact
+470101	, compact
+470105	, problematic	, Comment: no obvious source
+470108	, compact
+470111	, compact
+470112	, merger	, nearby	, irregular
+470116	, nearby	, compact
+470117	, nearby	, compact
+470121	, problematic	, diffuse	, Comment: not sure which one
+470129	, compact	, diffuse	, Comment: very small and faint
+470133	, compact	, off_center
+470136	, compact	, diffuse
+470137	, problematic	, Comment: not sure which one no obvious 
+470139
+470142	, nearby	, compact
+475002	, nearby	, compact
+475003	, merger	, nearby
+475006	, compact
+475009	, merger
+475010	, nearby	, compact
+475012	, problematic	, diffuse
+475014	, merger	, nearby	, compact
+475016	, merger	, nearby	, irregular
+475026	, nearby	, compact
+475031	, compact
+475033	, nearby	, compact
+475039	, off_center	, problematic	, Comment: no obvious source 
+475040	, compact	, diffuse
+475045	, merger	, nearby	, irregular
+475053	, nearby	, compact
+475067	, compact	, diffuse
+475075	, merger	, nearby
+475080	, nearby	, compact	, off_center
+475083	, nearby	, compact
+475087	, nearby	, compact
+475091	, problematic	, Comment: no obvious source
+475097	, nearby	, compact	, off_center
+475101	, problematic	, Comment: no obvious source
+475102	, compact	, off_center	, diffuse	, Comment: no obvious source very off center
+475121	, compact	, diffuse

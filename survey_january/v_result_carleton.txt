@@ -1,0 +1,164 @@
+466002	, merger	, nearby	, off_center	, irregular	, Comment: Three sources
+466005	, compact
+466009	, diffuse
+466011	, merger
+466017
+466021	, compact	, Comment: multiple small components
+466024	, off_center	, diffuse
+466025	, nearby	, diffuse
+466026
+466027	, compact
+466028	, problematic	, Comment: likely diffraction spike
+466034	, compact
+466042	, nearby	, irregular	, Comment: pair next to bright source - maybe lensed?
+466043	, nearby	, off_center	, Comment: 5 sources
+466047	, nearby
+466049	, problematic
+466050	, off_center	, irregular
+466056	, merger
+466058	, off_center	, Comment: 6 compact sources
+466059	, nearby	, off_center
+466060	, problematic
+466063	, diffuse	, Comment: no visible source - no apparent problems
+466065	, merger
+466067	, merger
+466068	, merger	, off_center
+466069	, merger	, nearby
+466070	, nearby	, compact
+466075	, nearby
+466076	, irregular
+466077	, Comment: elongated
+466078	, merger
+466082	, nearby	, compact
+466084	, compact
+466086	, nearby
+466088	, nearby
+466090	, nearby	, irregular	, Comment: multiple sources in one image and not the other
+466092	, diffuse	, Comment: no visible source - no apparent problems
+466095	, merger
+466096	, merger
+466097	, merger	, Comment: pair in one image and not the other
+466105
+466108	, diffuse
+466109
+466110	, compact	, off_center
+466112	, compact
+466114	, compact
+466116	, merger
+466117	, compact	, off_center
+466118	, off_center
+466122	, merger
+466123	, compact	, off_center
+466126	, nearby
+466128	, compact
+466131	, merger
+466132	, merger
+466134	, nearby
+466136	, diffuse
+466137	, merger
+466140
+466143	, compact	, off_center
+466145	, compact	, off_center	, Comment: different sources in both images
+466146	, nearby
+466154	, problematic
+466155	, off_center	, diffuse
+466156	, problematic
+466158	, off_center
+466162	, compact
+466164
+466174	, diffuse	, Comment: no visible source - no apparent problems
+466175
+466178	, nearby
+466179	, diffuse	, Comment: no visible source - no apparent problems
+466183	, diffuse
+466184	, compact
+466186	, irregular
+466187	, irregular	, Comment: elongated
+466190
+466191
+466192	, irregular
+466194	, diffuse
+466195	, problematic
+466196	, nearby	, off_center
+466198	, off_center
+466208	, irregular
+466210	, irregular	, diffuse
+466211	, merger
+466212	, nearby
+470006	, nearby	, irregular
+470008	, merger	, irregular
+470010	, irregular
+470011	, nearby	, irregular
+470013	, merger
+470014
+470017
+470019	, irregular	, Comment: compact sources within diffuse source
+470028	, merger
+470029	, compact
+470031	, merger
+470032	, compact
+470033	, nearby
+470034
+470035	, merger	, nearby
+470036	, diffuse
+470038	, compact
+470039	, off_center	, Comment: offset between images
+470041
+470047
+470049	, compact
+470050	, nearby
+470056	, diffuse
+470057	, diffuse
+470065	, nearby
+470067	, nearby
+470070
+470071	, off_center
+470072	, nearby	, irregular
+470075	, nearby	, irregular
+470076	, nearby	, off_center	, Comment: many sources in one image and not the other
+470081	, nearby
+470085	, compact
+470089
+470091	, off_center	, problematic	, Comment: non-uniform background
+470092	, nearby
+470093	, nearby
+470100
+470101	, compact
+470105	, diffuse
+470108
+470111
+470112	, merger	, nearby
+470116	, nearby
+470117	, nearby
+470121	, compact	, off_center
+470129	, compact
+470133	, off_center
+470136	, compact
+470137	, diffuse
+470139
+470142	, compact
+475002	, compact
+475003	, merger
+475006	, compact
+475009	, merger
+475010	, compact
+475012	, diffuse
+475014	, merger
+475016	, merger	, nearby
+475026	, compact
+475031	, compact
+475033	, nearby
+475039	, diffuse
+475040	, off_center
+475045	, merger
+475053	, compact	, Comment: many sources in one image and not the other
+475067	, compact
+475075	, merger	, nearby
+475080	, nearby	, off_center
+475083	, compact
+475087	, compact
+475091	, diffuse
+475097	, compact
+475101	, diffuse
+475102	, nearby	, compact
+475121	, compact

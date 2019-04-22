@@ -1,0 +1,166 @@
+160_inspection
+ID	Inspection Keys
+466002	, nearby	, off_center
+466005
+466009	, nearby
+466011
+466017
+466021
+466024	, off_center	, diffuse
+466025	, nearby
+466026
+466027	, nearby
+466028	, problematic	, Comment: Image artifact
+466034
+466042	, nearby
+466043	, nearby	, off_center
+466047	, merger	, nearby
+466049	, off_center	, problematic	, Comment: Many possible targets
+466050	, off_center	, problematic	, Comment: No clear target
+466056	, merger
+466058	, merger	, nearby
+466059	, nearby	, off_center
+466060	, nearby	, off_center	, problematic	, Comment: Image artifact
+466063	, problematic	, Comment: No objects in image
+466065	, merger
+466067	, merger
+466068	, off_center	, problematic	, Comment: No clear target
+466069	, merger	, nearby
+466070	, nearby
+466075	, nearby
+466076	, merger	, nearby
+466077	, merger
+466078	, merger
+466082	, nearby
+466084
+466086	, merger
+466088	, nearby
+466090	, merger	, nearby
+466092	, problematic	, Comment: No object in image
+466095	, merger
+466096	, merger	, nearby
+466097	, merger
+466105	, merger	, nearby
+466108	, problematic	, Comment: No object in image
+466109	, irregular	, Comment: Unusual emission intensity
+466110	, problematic	, Comment: No clear target
+466112
+466114	, problematic	, Comment: Image artifact
+466116	, nearby	, irregular	, Comment: Unusual galaxy shape - possible merger
+466117	, off_center
+466118
+466122	, nearby
+466123	, merger	, nearby
+466126	, nearby
+466128	, merger
+466131	, merger	, nearby
+466132	, merger
+466134	, nearby
+466136	, problematic	, Comment: No clear target
+466137	, merger
+466140	, off_center
+466143	, off_center
+466145	, problematic	, Comment: No clear target
+466146	, off_center
+466154	, problematic	, Comment: Image artifact
+466155	, problematic	, Comment: No clear target
+466156	, problematic	, Comment: Image artifact
+466158
+466162
+466164
+466174	, problematic	, Comment: No clear objects in image
+466175
+466178	, nearby
+466179	, problematic	, Comment: No clear objects in image
+466183	, irregular	, Comment: Very faint object in center - possible target
+466184	, nearby
+466186	, merger	, irregular	, Comment: Second object in merger is unusual
+466187	, merger	, irregular	, Comment: Possibly just the galaxy's tidal tail
+466190	, problematic	, Comment: No clear target
+466191
+466192	, merger
+466194	, nearby
+466195	, problematic	, Comment: Image artifact & no clear target
+466196	, nearby	, off_center
+466198	, off_center
+466208	, merger
+466210
+466211	, merger
+466212	, nearby	, off_center
+470006	, merger	, off_center
+470008	, nearby
+470010	, merger	, irregular	, Comment: Unusual object shape - possible merger
+470011	, merger	, nearby
+470013	, merger
+470014	, irregular	, Comment: Unusual emission intensity
+470017
+470019	, merger
+470028	, merger
+470029
+470031	, merger
+470032
+470033	, nearby
+470034	, merger
+470035	, merger	, nearby	, irregular	, Comment: Possible merger
+470036	, nearby
+470038
+470039	, off_center
+470041
+470047
+470049
+470050	, nearby
+470056	, problematic	, Comment: No clear target
+470057	, problematic	, Comment: No clear target
+470065	, merger	, nearby
+470067	, nearby
+470070
+470071	, problematic	, Comment: No clear target
+470072	, merger	, nearby
+470075	, merger	, nearby
+470076	, nearby
+470081	, merger	, nearby
+470085
+470089
+470091	, problematic	, Comment: No clear target
+470092	, nearby
+470093	, irregular	, Comment: Unusual emission intensity
+470100	, nearby	, off_center
+470101
+470105	, problematic	, Comment: No clear objects in image
+470108
+470111
+470112	, merger	, nearby
+470116	, nearby
+470117	, nearby
+470121	, merger	, irregular	, Comment: Possible merger
+470129
+470133
+470136
+470137	, problematic	, Comment: No clear target
+470139	, irregular	, Comment: Unusual emission intensity
+470142
+475002
+475003	, merger
+475006
+475009	, merger
+475010	, nearby
+475012	, nearby
+475014	, merger
+475016	, merger
+475026	, nearby	, off_center
+475031
+475033
+475039	, problematic	, Comment: No clear target
+475040	, off_center
+475045	, merger
+475053	, nearby
+475067	, off_center
+475075	, merger	, nearby
+475080	, nearby	, off_center
+475083	, nearby
+475087
+475091	, problematic	, Comment: No clear targets
+475097	, off_center
+475101	, problematic	, Comment: No clear objects in image
+475102	, problematic	, Comment: No clear target
+475121

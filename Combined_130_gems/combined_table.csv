@@ -1,0 +1,123 @@
+ID,merger/pair_1,off center,nearby_1,irregular_1,comment/question,no/problematic object,OBJNUMBER_1,"Merger/Pair(<0.5"")_1",Off-Center_1,"Nearby(0.5""<r<1"")_1",Irregular_2,"no/problematic(r<0.5"")_1",Comment/Question?_1,OBJNUMBER_2,"Merger/Pair(<0.5"")_2",Off-Center_2,"Nearby(0.5""<r<1"")_2",Irregular_1a,"no/problematic(r<0.5"")_2",Comment/Question?_2,ï»¿OBJNUMBER,Merger/Pair_2,Off-Center,Nearby_2,Irregular_2a,Comment/Question?,No/Problamatic object,merger_sum,nearby_sum,irregular_sum
+466002,0,1,0,1,Multiple possible objects could be the focus,0,466002,0,1,1,1,0,"Off-center distance~0.5""; merger?",466002,0,1,1,0,0,elongated? group?,466002,0,0,1,0,,0,0,3,2
+466005,0,1,0,0,,0,466005,0,0,0,0,0,compact core with some structure,466005,0,0,0,0,0,elongated,466005,0,0,0,0,,0,0,0,0
+466009,0,0,0,1,Unusual shape/possible merger,0,466009,1,0,1,1,0,Merger and multipl system,466009,1,0,0,1,0,curved obj with small clumps,466009,0,0,0,1,,0,2,1,4
+466011,1,0,0,0,,0,466011,1,0,1,0,0,Close pair,466011,1,0,0,0,0,pair,466011,1,0,0,0,,0,4,1,0
+466017,0,0,0,0,,0,466017,0,0,0,1,0,Compact obj. with extended structure in one direction,466017,0,0,0,0,0,,466017,0,0,0,0,,0,0,0,1
+466021,0,0,0,1,Unusual shape/possible merger,0,466021,1,0,0,1,0,Merger,466021,1,0,0,0,0,small clump or maybe not merger,466021,1,0,0,0,,0,3,0,2
+466024,0,0,0,0,,1,466024,0,1,1,1,1,"Off-center distance ~ 0.8""; merger",466024,0,0,0,0,1,cannot see clearly obj,466024,0,0,0,0,Not There,1,0,1,1
+466025,0,0,1,0,,0,466025,1,0,1,1,0,Merger with nearby obj.,466025,0,0,1,0,0,fuzzy/LSB,466025,0,0,0,1,,0,1,3,2
+466026,0,1,0,0,,0,466026,0,1,0,0,0,Compact obj.,466026,0,0,0,0,0,,466026,0,0,0,0,,0,0,0,0
+466027,0,0,0,0,,0,466027,1,0,0,1,0,Merger (late type),466027,0,0,0,0,0,,466027,0,0,0,0,,0,1,0,1
+466028,0,0,0,1,Streak object/possible overexposure,1,466028,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,466028,0,0,0,0,1,no obj,466028,0,0,0,0,Error/Streaks,1,0,0,1
+466034,0,0,0,0,,0,466034,0,1,0,0,0,Compact obj.,466034,0,1,0,0,0,compact/point-like obj,466034,0,0,0,0,,0,0,0,0
+466042,0,0,0,0,,1,466042,1,1,1,1,0,Merger multi-system,466042,0,1,1,0,0,faint/LSB,466042,0,0,0,0,,0,1,2,1
+466049,0,0,0,0,,1,466049,0,1,1,0,1,"Nothing in R<0.8"". Fake NB source or bad HST data?",466049,0,1,0,0,1,very off-center; right obj?,466049,0,0,0,0,Problem,1,0,1,0
+466050,0,0,0,0,,1,466050,0,1,1,1,0,"Merger? multi-system; off-center at R~0.7""",466050,0,1,0,0,1,no clear matched obj,466050,0,1,0,1,Possible not there,1,0,1,2
+466056,1,0,0,0,,0,466056,1,0,0,1,0,Merger and Pair,466056,1,0,0,0,0,pair,466056,1,0,0,0,,0,4,0,1
+466058,1,1,0,0,,0,466058,1,1,1,1,0,Merger multi-system,466058,1,1,1,0,0,pair or group; LSB,466058,0,1,0,1,,0,3,2,2
+466059,0,1,0,1,Two possible objects,0,466059,1,1,1,1,0,Pair tail?,466059,0,0,1,0,0,compact obj,466059,0,1,0,0,Possible nearby,1,1,2,2
+466060,0,0,0,1,Large streak on left,1,466060,0,0,0,0,1,Nothing there; fake NB source?,466060,0,0,0,0,1,no clear matched obj,466060,0,0,0,0,Error/Artifact,1,0,0,1
+466063,0,0,0,0,,1,466063,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,466063,0,0,0,0,1,no clear matched obj,466063,0,0,0,0,Not There,1,0,0,0
+466065,1,0,0,0,,0,466065,1,1,0,1,0,Merger and Pair,466065,1,1,0,0,0,pair,466065,1,0,0,0,,0,4,0,1
+466069,1,0,1,0,,0,466069,1,0,1,1,0,Merger and multi-system,466069,1,0,1,0,0,pair and nearby,466069,1,0,0,0,,0,4,3,1
+466070,0,1,1,0,,0,466070,0,0,1,0,0,nearby objects,466070,0,0,1,0,0,compact with nearby,466070,0,0,1,0,,0,0,4,0
+466075,0,1,1,0,,0,466075,1,0,1,1,0,merger of 2-3 galaxies; nearby multi-system,466075,0,1,1,1,0,elongated/LSB/offcenter/nearby large,466075,0,0,0,1,,0,1,3,3
+466076,0,1,1,1,Two possible objects could be the focus,0,466076,1,1,1,1,0,merger of 4 galaxies?,466076,1,0,0,1,0,multi-clump obj,466076,0,0,0,1,,0,2,2,4
+466077,1,1,0,0,,0,466077,1,1,1,1,0,merger of 3 galaxies? Nearly same to 466076,466077,0,0,0,0,0,very elongated/disk?,466077,1,0,0,1,,0,3,1,2
+466078,0,1,1,1,Possible merger,0,466078,1,1,1,1,0,Merger. Nearly same to 466077 and 466076,466078,0,1,1,0,0,,466078,0,0,0,0,,0,1,3,2
+466082,0,1,0,0,,0,466082,0,0,0,0,0,point,466082,0,0,0,0,0,compact point-like obj,466082,0,0,0,0,,0,0,0,0
+466090,0,1,0,0,,0,466090,1,1,0,1,0,"Source with structure; Nearby at ~1.2""",466090,0,1,1,0,0,compact/point-like/offcenter/nearby,466090,0,1,0,0,,0,1,1,1
+466092,0,0,0,0,,1,466092,0,0,0,0,1,Nothing there;bad HST data or  fake NB source?,466092,0,0,0,0,1,no clear matched obj,466092,0,0,0,0,Not There,1,0,0,0
+466095,0,1,0,0,,0,466095,1,1,0,1,0,merger and irregular sources,466095,1,0,0,0,0,faint nearby clump,466095,0,0,0,0,,0,2,0,1
+466097,0,0,0,0,,0,466097,0,0,0,0,0,Bright Point,466097,0,0,0,0,0,bright source,466097,0,0,0,0,,0,0,0,0
+466108,0,0,0,0,,1,466108,0,0,0,0,1,Bad data or fake NB source,466108,0,0,0,0,1,no clear matched obj,466108,0,0,0,0,Not There,1,0,0,0
+466110,0,0,0,0,,1,466110,0,0,1,0,0,faint signal or fake NB source?,466110,0,0,0,0,1,no clear matched obj/very offcenter?,466110,0,0,0,0,Not There,1,0,1,0
+466114,0,0,0,1,image artifact,1,466114,0,0,0,0,1,not covered by HST,466114,0,0,0,0,1,image problem,466114,0,0,0,0,Error,1,0,0,1
+466116,0,1,0,0,,0,466116,1,0,1,1,0,merger of 2 galaxies? Nearly same to 466077; 466075; Ã?,466116,0,0,1,0,0,elongated/nearby LSB,466116,0,0,0,1,,0,1,2,2
+466122,1,1,0,0,,0,466122,1,0,0,1,0,close pair or merger.,466122,1,0,0,0,0,two clumps/merger/pair,466122,1,0,0,0,,0,4,0,1
+466123,0,1,0,0,,0,466123,0,1,1,0,0,"Off-center distance~0.6""; merger",466123,0,1,0,0,0,compact/point-like/offcenter,466123,0,0,0,0,,0,0,1,0
+466126,0,1,1,0,,0,466126,1,1,1,1,0,Extended structure in one direction,466126,0,0,1,0,0,nearby group/compact,466126,0,0,0,0,,0,1,3,1
+466128,0,1,0,0,,0,466128,1,1,1,1,0,"Off-center distance~0.6""; extended objects nearby?",466128,0,1,0,0,0,compact,466128,0,0,0,0,,0,1,1,1
+466132,1,1,0,0,,0,466132,1,1,1,1,0,"Off-center distance~0.6""; merger",466132,1,1,0,0,0,merger/pair,466132,0,1,0,1,,0,3,1,2
+466143,0,1,0,0,,0,466143,1,1,1,1,0,"Off-center distance~0.6""; extended structure?",466143,0,1,0,0,0,very offcenter,466143,0,0,0,0,,0,1,1,1
+466145,0,1,1,0,,0,466145,0,0,0,0,1,Weak HST signal or fake NB source,466145,0,1,0,0,0,very offcenter or maybe mismatched?,466145,0,1,0,0,,0,0,1,0
+466154,0,0,0,1,image artifacts,0,466154,0,0,0,0,1,Nothing there; fake NB source?,466154,0,0,0,0,1,no clear matched obj,466154,0,0,0,0,Error/Artifacts/Not There,1,0,0,1
+466155,0,0,0,0,,1,466155,0,1,1,1,0,"Off-center distance~0.6""; merger",466155,0,1,0,0,0,offcenter/LSB,466155,0,1,0,1,,0,0,1,2
+466156,0,0,0,1,image artifact,0,466156,0,0,0,0,1,Bad data or fake NB source,466156,0,0,0,0,1,image problem,466156,0,0,0,0,Error/Problem,1,0,0,1
+466158,0,1,0,0,,0,466158,0,1,1,1,0,"Off-center distance~0.6""; extended structure?",466158,0,1,0,0,0,elongated/disky?,466158,0,1,0,0,,0,0,1,1
+466162,0,1,0,0,,0,466162,1,1,0,1,0,merger(late type) or tail (irregular)?,466162,0,0,0,0,0,compact,466162,0,0,0,0,,0,1,0,1
+466164,0,0,0,1,Possible merger,0,466164,1,0,0,1,0,merger(late type),466164,0,0,0,0,0,elongated,466164,0,0,0,0,,0,1,0,2
+466174,0,0,0,0,,1,466174,0,0,0,0,1,Nothing there; fake NB source?,466174,0,0,0,0,1,no clear matched obj,466174,0,0,0,0,Not There,1,0,0,0
+466175,0,1,0,0,,0,466175,0,0,0,0,1,compact,466175,0,0,0,0,0,compact,466175,0,0,0,0,,0,0,0,0
+466178,0,1,1,0,,0,466178,1,0,1,1,0,"Off-center distance~0.6""; extended structure?",466178,1,0,1,0,0,two sources close to center/not sure which one,466178,0,0,1,0,,0,2,4,1
+466179,0,0,0,0,,1,466179,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,466179,0,0,0,0,1,no clear matched obj,466179,0,0,0,0,Not there,1,0,0,0
+466183,0,0,0,0,,1,466183,1,0,1,1,0,Strange and extended structure-***,466183,0,0,0,0,1,no clear matched obj/very fuzzy obj,466183,0,0,0,0,Not there,1,1,1,1
+466184,0,1,0,0,,0,466184,1,1,1,1,0,Pair,466184,0,1,0,0,0,compact,466184,0,0,0,0,,0,1,1,1
+466186,0,0,0,1,Possible merger,9,466186,1,0,1,1,0,Merger and diffuse structure,466186,1,0,0,1,0,LSB substructure/merger,466186,0,0,0,0,,0,2,1,3
+466187,0,0,0,1,Unsual shape,0,466187,1,0,1,1,0,merger and long tail,466187,1,0,0,0,0,elongated/clump disk/merger?,466187,0,0,0,1,,0,2,1,3
+466190,0,0,0,0,,1,466190,0,0,0,0,1,Nothing there; fake NB source?,466190,0,0,0,0,1,no clear matched obj,466190,0,0,0,0,Not there,1,0,0,0
+466191,0,0,0,0,,0,466191,0,0,0,0,0,Bright Point,466191,0,0,0,0,0,compact,466191,0,0,0,0,,0,0,0,0
+466192,1,0,0,0,,0,466192,1,0,1,1,0,Merger and multipl system,466192,1,1,0,1,0,elongated/clump disk/merger?,466192,0,0,0,1,,0,3,1,3
+466194,0,0,0,0,,0,466194,1,0,1,1,0,Pair?,466194,0,0,0,0,0,small/elongated,466194,0,0,0,0,,0,1,1,1
+466195,0,0,0,1,Image artifact,1,466195,0,0,0,0,1,Too faint signal or fake NB source?,466195,0,0,0,0,1,no clear matched obj,466195,0,0,0,0,Not there/Trail,1,0,0,1
+466196,0,1,1,0,,0,466196,0,1,1,1,0,"Off-center distance ~ 0.8""; merger",466196,1,1,1,0,0,two obj close but offcenter,466196,0,0,1,0,,0,1,4,1
+466198,0,0,0,0,,1,466198,0,0,0,0,1,"Off-center distance~1.3""; real NB source?",466198,0,1,0,0,0,compact/very offcenter,466198,0,1,0,0,,0,0,0,0
+466208,1,0,0,0,,0,466208,1,0,1,1,0,Merger and multipl system,466208,0,0,0,0,0,clumpy disk/elongated,466208,0,0,0,1,,0,2,1,2
+466210,0,0,0,0,,1,466210,1,1,1,1,0,Merger as two diffuse objects,466210,0,0,0,0,0,small/LSB,466210,0,0,0,1,,0,1,1,2
+466211,1,0,0,0,,0,466211,1,0,1,0,0,Pair,466211,1,0,0,0,0,bright with a small companion,466211,1,0,0,0,,0,4,1,0
+466212,0,1,1,1,Two possible objects could be the focus,0,466212,0,1,1,1,0,"Off-center distance >~0.6""; 2-3 objects around",466212,0,0,1,0,0,,466212,1,0,0,0,,0,1,3,2
+470006,1,1,0,0,,0,470006,1,1,1,1,0,"Off-center distance~0.5""; merger and extended structure",470006,1,0,1,0,0,merger with a disk/in a group?,470006,1,0,0,0,,0,4,2,1
+470008,0,0,1,0,,0,470008,1,0,1,0,0,Merger and multipl system,470008,1,0,1,0,0,merger/pair or nearby comp?,470008,1,0,0,0,,0,3,3,0
+470010,0,0,0,1,Unusual shape,0,470010,1,0,1,1,0,Merger and diffuse structure,470010,1,0,0,0,0,merger/pair and LSB substructure,470010,0,0,0,1,,0,2,1,3
+470011,0,0,1,1,Several possible objects could be the focus,0,470011,1,1,1,1,0,"Off-center distance~0.6""; merger",470011,1,0,1,0,0,,470011,0,0,0,0,Unsure,0,2,3,2
+470013,1,0,0,0,,0,470013,1,0,0,1,0,merger of 3 galaxies? Complex than 466077,470013,1,0,0,0,0,,470013,1,0,0,0,,0,4,0,1
+470017,0,0,0,0,,0,470017,0,1,0,0,0,Compact with tails,470017,0,0,0,0,0,,470017,0,0,0,0,,0,0,0,0
+470019,0,0,0,1,Unusual shape,0,470019,1,0,1,1,0,Merger and diffuse structure,470019,0,0,0,0,0,LSB? multi clumpy structure?,470019,0,0,0,1,,0,1,1,3
+470029,0,1,0,0,,0,470029,1,1,0,1,0,Merger,470029,0,0,0,0,0,very faint and compact,470029,0,0,0,0,,0,1,0,1
+470032,0,1,0,0,,0,470032,1,1,0,1,0,"Off-center distance~0.6""; merger",470032,0,1,0,0,0,,470032,0,0,0,0,,0,1,0,1
+470034,1,1,0,0,,0,470034,1,0,0,1,0,merger of 2 galaxies? Nearly same to 466077; 466075; Ã?,470034,1,0,0,0,0,elongated/two clumps?,470034,1,0,0,0,,0,4,0,1
+470036,0,0,0,0,,1,470036,0,0,0,0,1,No HST data,470036,0,0,0,0,1,empty image,470036,0,0,0,0,Error,1,0,0,0
+470039,0,0,0,0,,1,470039,0,0,1,0,1,"Off-center distance~1.3""; real NB source?",470039,0,1,0,0,0,very offcenter/elongated,470039,0,1,0,0,,0,0,1,0
+470041,0,1,0,0,,0,470041,0,1,0,0,0,Compact with one tail,470041,0,0,0,0,0,,470041,0,0,0,0,,0,0,0,0
+470049,0,0,0,0,,0,470049,0,0,0,1,0,Compact with two tails,470049,0,0,0,0,0,very compact/faint/small,470049,0,0,0,0,,0,0,0,1
+470056,0,0,0,0,,1,470056,0,0,1,0,1,"Off-center distance~1.3""; real NB source?",470056,0,0,0,0,1,no clear matched obj,470056,0,0,0,0,Error/ Not there,1,0,1,0
+470057,0,0,0,0,,1,470057,0,0,0,0,1,"Nothing there; fake NB source? Off-center distance > 1.5""",470057,0,0,0,0,1,no clear matched obj,470057,0,0,0,0,Not There,1,0,0,0
+470075,0,0,1,0,,0,470075,1,0,1,1,0,Merger and multi-system,470075,0,0,1,0,0,compact/pair/nearby,470075,0,0,0,0,,0,1,3,1
+470076,0,1,0,0,,0,470076,1,1,0,1,0,"Off-center distance~0.5""; merger",470076,0,1,0,0,0,offcenter,470076,0,0,0,0,,0,1,0,1
+470091,0,0,0,0,,1,470091,0,0,0,0,1,"Nothing there; fake NB source? Off-center distance > 1.5""",470091,0,0,0,0,1,no clear matched obj,470091,0,0,0,0,Not there,1,0,0,0
+470093,0,0,0,1,Possible image artifact,0,470093,0,0,0,0,0,Elliptic galaxy with a bright core,470093,0,0,0,0,0,bright/elongated/disk?,470093,0,0,0,1,,0,0,0,2
+470101,0,1,0,0,,0,470101,0,1,0,0,0,"Off-center distance~0.3""; compact",470101,0,0,0,0,0,a little offcenter,470101,0,0,0,0,,0,0,0,0
+470105,0,0,0,0,,1,470105,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,470105,0,0,0,0,1,no clear mathed obj/very faint?,470105,0,0,0,0,Not there,1,0,0,0
+470108,0,0,0,0,,0,470108,0,1,0,0,0,compact core with some structure,470108,0,0,0,0,0,a little offcenter,470108,0,0,0,0,,0,0,0,0
+470112,0,0,0,0,,0,470112,1,0,1,1,0,Merger and multipl system,470112,0,0,0,0,0,very faint tail structure,470112,0,0,0,0,,0,1,1,1
+470129,0,0,0,0,,1,470129,0,1,0,0,0,Compact,470129,0,0,0,0,0,very faint/small/little offcenter,470129,0,0,0,0,,0,0,0,0
+470133,0,0,0,0,,1,470133,0,1,1,1,0,"Off-center distance~0.6""; diffuse",470133,0,0,0,0,0,very diffuse/good match?,470133,0,0,0,0,Not there,1,0,1,1
+470136,0,0,0,0,,0,470136,0,1,0,0,0,Compact,470136,0,0,0,0,0,very faint/small,470136,0,0,0,0,,0,0,0,0
+470137,0,0,0,0,,1,470137,0,0,0,0,1,"Nothing there; fake NB source? Off-center distance > 1.5""",470137,0,0,0,0,1,no clear matched obj,470137,0,0,0,0,Not there,1,0,0,0
+470139,0,0,0,1,Possible image artifact,0,470139,0,1,0,0,0,Elliptic galaxy with a bright core,470139,0,0,0,0,0,bright/elongated/disk?,470139,0,0,0,1,,0,0,0,2
+470142,0,0,0,0,,0,470142,0,1,0,0,0,Small irregular source,470142,0,0,0,0,0,very faint/small/compact,470142,0,0,0,0,,0,0,0,0
+475002,0,1,0,0,,0,475002,0,0,0,1,0,Bright core with diffuse structure,475002,0,0,0,0,0,compact wiht diffuse tial?,475002,0,0,0,0,,0,0,0,1
+475003,1,1,0,0,,0,475003,1,0,1,1,0,merger of 3 galaxies? Complex than 466077,475003,1,1,0,0,0,pair/merger,475003,0,0,0,1,,0,3,1,2
+475006,0,1,0,0,,0,475006,0,1,1,1,0,"Off-center distance~0.5""; merger?",475006,0,1,0,0,0,compact/offcenter,475006,0,0,0,0,,0,0,1,1
+475009,1,0,0,0,,0,475009,1,0,0,0,0,Merger or Pair,475009,1,0,0,0,0,pair/merger,475009,1,0,0,0,,0,4,0,0
+475010,0,0,0,0,,0,475010,0,0,1,0,0,compact,475010,0,0,0,0,0,very compact/small,475010,0,0,0,0,,0,0,1,0
+475012,0,0,0,0,,1,475012,1,0,1,1,0,faint merger,475012,0,0,0,0,0,very compact/small,475012,0,0,0,0,Not there,1,1,1,1
+475014,1,0,0,0,,0,475014,1,0,1,0,0,merger or pair?,475014,1,0,0,0,0,,475014,0,0,1,0,,0,3,2,0
+475016,1,1,0,0,,0,475016,1,0,1,1,0,"Nearby ~0.9"". Same system?",475016,1,0,1,0,0,diffuse obj w/ three companion clumps,475016,0,0,0,1,,0,3,2,2
+475026,0,1,0,0,,0,475026,0,1,1,0,0,"Off-center distance~0.5""; merger?",475026,0,0,0,0,0,the real obj maybe offcenter?,475026,0,0,0,0,,0,0,1,0
+475031,0,0,0,0,,0,475031,0,0,0,0,0,Compact,475031,0,0,0,0,0,,475031,0,0,0,0,,0,0,0,0
+475033,0,0,0,0,,0,475033,0,1,0,0,0,Compact,475033,0,0,0,0,0,,475033,0,0,0,0,,0,0,0,0
+475039,0,0,0,0,,0,475039,0,0,0,0,1,"Nothing there; fake NB source? Off-center distance > 1.5""",475039,0,0,0,0,1,no clear matched obj,475039,0,0,0,0,Not there,1,0,0,0
+475040,0,0,0,0,,0,475040,0,1,1,1,0,"Off-center distance ~ 0.8""; extended",475040,0,1,0,0,0,very offcenter,475040,0,0,0,0,Unsure,1,0,1,1
+475053,0,1,0,0,,0,475053,0,0,0,0,0,Compact,475053,0,0,0,0,0,small/compact,475053,0,0,0,0,,0,0,0,0
+475067,0,1,0,0,,0,475067,0,1,0,0,0,Compact,475067,0,0,0,0,0,small/compact/little offcenter,475067,0,0,0,0,,0,0,0,0
+475075,0,1,1,0,,0,475075,1,1,1,1,0,Merger and multipl system,475075,0,0,1,0,0,small/compact/with nearby,475075,0,0,1,0,,0,1,4,1
+475080,0,1,0,0,,0,475080,0,0,1,0,0,"Off-center distance~1.0"";wake signal or fake NB source?",475080,0,0,0,0,1,no clear matched obj,475080,0,1,0,0,,0,0,1,0
+475083,0,1,1,0,,0,475083,0,1,0,1,0,"Off-center distance~0.6""; extended structure?",475083,0,1,0,0,0,offcenter,475083,0,0,0,0,,0,0,1,1
+475087,0,0,0,0,,0,475087,0,0,0,0,0,compact core with some structure,475087,0,0,0,0,0,,475087,0,0,0,0,,0,0,0,0
+475091,0,0,0,0,,1,475091,0,0,0,0,1,"Nothing there; fake NB source? Off-center distance > 1.5""",475091,0,0,0,0,1,no clear matched obj,475091,0,0,0,0,Not there,1,0,0,0
+475097,0,1,1,0,,0,475097,0,1,0,1,0,compact core with some structure,475097,0,1,0,0,0,offcenter,475097,0,0,0,0,,0,0,1,1
+475101,0,0,0,0,,1,475101,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,475101,0,0,0,0,1,no clear matched obj,475101,0,0,0,0,Not there,1,0,0,0
+475102,0,0,0,0,,1,475102,0,0,0,0,1,Nothing there; fake NB source or bad HST data?,475102,0,1,0,0,0,very offcenter,475102,0,0,0,0,,,0,0,0
+475121,0,1,0,0,,0,475121,0,0,0,0,0,Compact,475121,0,0,0,0,0,compac/small,475121,0,1,0,0,,,0,0,0

@@ -1,0 +1,479 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Title      : Hot Spring
+Version    : 1.0
+Released   : 20070326
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+   <title>Select your galaxy in any rainbow DB</title>
+   <meta name="keywords" content="" />
+   <meta name="description" content="" />
+   <link href="css/index.css" rel="stylesheet" type="text/css" />
+   <script type="text/javascript">
+   var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18343638-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+</script>
+</head>
+<body>
+<!--JQUERY-->
+<!--<link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>-->
+  <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.0/themes/le-frog/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+  <!--JQUERY-->
+  <div id="wrapper">
+  <a href="https://rainbowx.fis.ucm.es" target="_blank"><div id="header">
+  <hr />
+  </div></a>
+  <div id="content">
+  <div id="blog">
+  <div id="post-1" class="post">
+  <h2 class="title"><a href="#">Choose field and selection band</a></h2>
+  <div class="entry">
+  <table border="0" style="height:15px">
+  <tr>
+  <td width="30%" class="ADV" valign="middle" align="left">
+  <a class="OPTIONS" title="e.g., CDFS">Select field (database)</a>
+  </td>
+  <td width="5%" valign="middle" align="center">
+  <div id="helplink-database">
+  <img width="20" src="misc/help_green.png" style="padding-top: 4px;cursor:hand;cursor:pointer;"></img>
+  </div> 
+  </td>
+  <td width="15%">
+  </td>
+  <td width="20%" class="ADV" valign="middle" align="left">
+  <a class="OPTIONS" title="e.g., IRAC_DR1">Selection Band</a>
+  </td>
+  <td width="5%" valign="middle" align="center">
+  <div id="helplink-table">
+  <img width="20" src="misc/help_green.png" style="padding-top: 4px;cursor:hand;cursor:pointer;"></img>
+  </div> 
+  </td>
+  <td width="25%">
+  </td>
+  </tr>
+  <tr>
+
+  <td align="center" colspan="3">
+<iframe name="iframe_database" src="select_db.php" height="24" width="100%" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"  AllowTransparency></iframe></td><td align="center" colspan="3">  <iframe  name="iframe_selband" src="selband_blank.html" height="24" width="100%" scrolling="no" frameborder="0" marginheight="0" marginwidth="0"  AllowTransparency></iframe>  </td>
+  </tr>
+  </table>
+  </div>
+  
+  <div class="hr">
+  <hr />
+  </div>
+  </div>
+  <!-- end #post-1 -->
+  <!-- #post-2 -->
+  <div id="post-1" class="post">
+  <h2 class="title"><a title="Image showing all the available data" href="#">Dataset footprints for selected Rainbow catalog</a></h2>
+<iframe  name="iframe_selfootprint" id="iframe_selfootprint" src="select_footprint.php" onLoad="autoResize('iframe_selfootprint');" width="100%" scrolling="no" frameborder="0" marginheight="0" marginwidth="10"  AllowTransparency></iframe>  <div class="hr">
+  <hr />
+  </div>
+  </div>
+  <!-- end #post-2-->
+  <!-- #post-3-->
+  <div id="post-1" class="post">
+  <h2 class="title"><a title="Options for SED plotting" href="#">Options&nbsp;<div style="display:inline;" id="helplink-options"><img width="20" src="misc/help_green.png" style="padding-top: 4px;cursor:hand;cursor:pointer;"></img></div> </a></h2>
+  <table align="left" width="100%">
+  <tr>
+  <td>
+  <a class="OPTIONS" title="Maximum is 90''">Size of postage stamps (arcsec)</a>
+  </td>
+  <td align="left">
+  <input type="text" name="f_size" size="3" value="40" onchange="setinputvalue('f_size',this.value);">
+  </td>
+  </tr>
+  <tr>
+  <td class="checkb">
+  <input type="checkbox" name="undet" checked onclick="setinputvalue('undet',this.checked);"/> <a title="Show postage stamp even if source is not detected in image">Display bands with undetections</a> 
+  </td>
+  <td class="checkb">
+  <input type="checkbox" name="nomes" checked onclick="setinputvalue('nomes',this.checked);"/> <a title="Show postage stamp even if flux was not measured in that band"> Display bands without measurements
+  </td>
+  </tr>
+  <tr>
+  <td class="checkb">
+  <input type="checkbox" name="labels"  unchecked onclick="setinputvalue('labels',this.checked);"/> <a title="Show axis and labels with RA,DEC">Show labels with coordinates</a>
+  </td>
+  <td class="checkb">
+  <input type="checkbox" name="invert"  unchecked onclick="setinputvalue('invert',this.checked);"/> <a title="Invert colors for postage stamps">Invert B&W colors on the postage stamps </a>
+  </td>
+  </tr>
+  <tr>
+  <td class="checkb">
+  <input type="checkbox" name="justsed" unchecked onclick="setinputvalue('justsed',this.checked);"/> <a title=""Do not show postage stamps, just SED">Skip postage stamps (faster)</a>
+  </td>
+  <td></td>
+  <!--<td class="checkb"><input type="checkbox" name="injansky" unchecked onclick="setinputvalue('injansky',this.checked);"/> Queries use flux densities [&mu;Jy] </td></tr>-->
+  </table>
+	    </div>
+	    <!-- end #post-3 -->
+	    <!--<div id="post-1" class="post" align="center">-->
+	      <iframe  name="iframe_mirrors" id="iframe_mirrors" src="show_mirrors.php" height="20" width="100%" scrolling="no" frameborder="0" marginheight="10" marginwidth="10"  AllowTransparency></iframe>
+	    <!--</div>-->
+	  </div>
+	  <!-- end #blog -->
+	  <div id="sidebar">
+	    <ul>
+	      <li id="search">
+		<h2><table><tr><td align="left">Build your sample</td><td><div id="helplink-sample"><img width="20" src="misc/help_green.png" style="padding-left: 10px;cursor:hand;cursor:pointer;"></img></div></td></tr></table></h2>
+		<form name="galaxy_catalogs" method="post" target="_blank" action="catalogs.php">
+		  <input type="hidden" name="f_database" value="">
+		    <input type="hidden" name="f_selband" value="">
+		      <input type="hidden" name="f_size" size="3" value="40">
+			<input type="hidden" name="nomes" value="true">
+			  <input type="hidden" name="undet" value="true">
+			    <input type="hidden" name="labels" value="">
+			      <input type="hidden" name="invert" value="">
+				<input type="hidden" name="justsed" value="">
+				  <input type="hidden" name="noper" value="0">
+				    <div align="center" id="catalog"><input type="button" value="Sample selection interface" onclick="document.forms.galaxy_catalogs.submit();"></div>
+		</form> 
+	      </li>
+	      <!-- end #search -->
+	      <li id="search">
+		<h2><table><tr><td align="left">Search (by coords)</td><td><div id="helplink-coords"><img width="20" src="misc/help_green.png" style="padding-left: 10px;cursor:hand;cursor:pointer;"></img></div></td></tr></table></h2>
+		<form name="galaxy_coords" method="get" target="_blank" action="galstamp.php">
+		  <input type="hidden" name="caller" value="0"/></input>
+		  <input type="hidden" name="f_database" value=""></input>
+		  <input type="hidden" name="f_selband" value=""></input>
+		  <input type="hidden" name="f_size" size="3" value="40"></input>
+		  <input type="hidden" name="nomes" size="3" value="true"></input>
+		  <input type="hidden" name="undet" size="3" value="true"></input>
+		  <input type="hidden" name="labels" value="off"></input>
+		  <input type="hidden" name="invert" value="off"></input>
+		  <input type="hidden" name="justsed" value="off"></input>
+		  <input type="hidden" name="noper" value="0"></input>
+		  <table style="padding-left:0px;">
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="e.g., 53.10027330 or 03:32:24.07">RA (J2000.0)</a>
+		      </td>
+		      <td>
+			<input type="text" name="f_RAradius" size="8"><input type="submit" style="width:0px;height:0px;border:none">
+					</td>
+		    </tr>  
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="e.g., -27.81991160 or -27:49:11.7">DEC (J2000.0)
+		      </td>
+		      <td>
+			<input type="text" name="f_DECradius" size="8"><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="in arcsec">Search radius </a>
+		      </td>
+		      <td>
+			<input type="text" name="f_radius" size="1" value="2." onchange="setinputvalue('f_radius',this.value);"><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>
+		    <tr>
+		      <td colspan="2" align="center">
+			<div id="send"><input type="button" value="Query database" onclick="document.forms.galaxy_coords.submit();"></div>
+		      </td>
+		    </tr>
+		  </table>
+		</form>
+	      </li>
+	      <!-- end #meta -->
+	      <li id="search">
+		<h2><table><tr><td align="left">Search (by name)</td><td><div id="helplink-name"><img width="20" src="misc/help_green.png" style="padding-left: 10px;cursor:hand;cursor:pointer;"></img></div></td></tr></table></h2>
+		<form name="galaxy_name" method="get" target="_blank" action="galstamp.php">
+		  <input type="hidden" name="caller" value="0"/></input>
+		  <input type="hidden" name="f_database" value=""></input>
+		  <input type="hidden" name="f_selband" value=""></input>
+		  <input type="hidden" name="f_size" size="3" value="40"></input>
+		  <input type="hidden" name="nomes" size="3" value="true"></input>
+		  <input type="hidden" name="undet" size="3" value="true"></input>
+		  <input type="hidden" name="labels" value="off"></input>
+		  <input type="hidden" name="invert" value="off"></input>
+		  <input type="hidden" name="justsed" value="off"></input>
+		  <input type="hidden" name="noper" value="0"></input>
+		  
+		  <table>
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="e.g., irac002281_1 or 14100603 for EGS/IRAC_DR1">Galaxy ID</a>
+		      </td>
+		      <td>
+			<input type="text" name="f_id" size="12"><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>
+		    <tr>
+		      <td colspan="2" align="center">
+			<div id="send"><input type="button" value="Query database" onclick="document.forms.galaxy_name.submit();"></div>
+		      </td>
+		    </tr>
+		  </table>
+		</form>
+	      </li>
+	      <li id="search">
+		<h2><table><tr><td align="left">Clickable map</td><td><div id="helplink-map"><img width="20" src="misc/help_green.png" style="padding-left: 10px;cursor:hand;cursor:pointer;"></img></div></td></tr></table></h2>
+                <form name="galaxy_map" enctype="multipart/form-data" method="get" target="_blank" action="galmap.php">
+		  <input type="hidden" name="f_database" value="$db"></input>
+		  <input type="hidden" name="f_selband" value="$band"></input>
+		  <input type="hidden" name="f_size" size="3" value="40"></input>
+		  <input type="hidden" name="nomes" value="true"></input>
+		  <input type="hidden" name="undet" value="true"></input>
+		  <input type="hidden" name="labels" value="off"></input>
+		  <input type="hidden" name="invert" value="off"></input>
+		  <input type="hidden" name="justsed" value="off"></input>
+		  <input type="hidden" name="noaper" value="0"></input>
+		  <table>
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="e.g., 53.115">Central RA</a>
+		      </td>
+		      <td>
+			<input type="text" id="f_RAcentral" name="f_RAcentral" size="12" value="00:00:00.00"><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>  
+		    <tr>
+		      <td>
+			<a class="OPTIONS" title="e.g., -27.805">DEC</a>
+		      </td>
+		      <td>
+			<input type="text" id="f_DECcentral" name="f_DECcentral" size="12" value="+00:00:00.00"><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>
+		    <tr>
+		      <td>
+			<a title="Size of square clickable map in arcmin">Map size</a>
+		      </td>
+		      <td>
+			<input type="text" name="map_size" size="1" value=2><input type="submit" style="width:0px;height:0px;border:none">
+		      </td>
+		    </tr>
+		    <tr>
+		      <td colspan="2">
+			<input type="checkbox" name="f_mark_sources" checked/>Mark sources 
+					</td>
+		    </tr>
+		    <tr>
+		      <td align="center" colspan="2">
+			<div id="send"><input type="button" value="Get map" onclick="document.forms.galaxy_map.submit();"></div>
+		      </td>
+		    </tr>
+		  </table>
+		</form>
+	      </li>
+	    </ul>
+	  </div>
+	  <!-- end #sidebar -->
+	  <div style="clear: both; height: 1px;"></div>
+	</div>
+	<!-- end #content -->
+	<div id="footer">
+	  <p align="left">Copyright &copy; 2013 UCM. Webpage style based on the Hot Springs design by <a href="http://www.freecsstemplates.org" target="_blank">FCT</a>.</br>Background image shows <a href="http://candels.ucolick.org" target="_blank">CANDELS UDS Epoch 1 mosaic.</a></br>
+	    <!-- Created: Tue Oct 30 16:29:20 MST 2007 -->
+	    <!-- hhmts start -->
+Last modified: Fri Jan 17 09:07:59 CET 2014
+<!-- hhmts end -->
+	  </p>
+	</div>
+	
+	<table border="0" bgcolor="white">
+	  <tr>
+	    <td>
+	      <div id="helplink-ack">
+		<p class="colortitle" style="width:98%;"><font color="blue" size=3> If you make use of this database and web, please acknowledge with the following text in your publication: </br> <i>"This work has made use of the Rainbow Cosmological Surveys Database, which is operated by the Universidad Complutense de Madrid (UCM), partnered with the University of California Observatories at Santa Cruz (UCO/Lick,UCSC)."</i></font></p>
+  </div>
+    <p style="width:98%;"><font color="black"><b>The Rainbow database is operated by the <a class="colortitle" href="http://www.ucm.es" target="_blank">Universidad Complutense de Madrid (UCM)</a>, partnered with the University of California Observatories at Santa Cruz (UCO/Lick,UCSC). The Rainbow database is partially funded by: the Spanish Programa Nacional de Astronom&iacute;a y Astrof&iacute;sica under grants AYA2015-63650-P and AYA2015-70815-ERC; the US NSF grant AST-08-08133.</b></font></p>
+    <p class="colortitle" style="cursor:default;"><font color="#6E6E6E" size=2>This website is optimized for Firefox v15.0.1 or higher. Formatting errors may occur in MS Explorer 10.0 or Safari 6+.</font></p>
+  </td>
+  </tr>
+    <tr>
+      <td>
+	<hr>
+	  <font color="red" size=4> Database Administrators:</font><a class="colortitle" href="mailto: &#112;&#103;&#112;&#101;&#114;&#101;&#122;&#064;&#117;&#099;&#109;&#046;&#101;&#115;"> Pablo G. P&eacute;rez Gonz&aacute;lez</a>, <a class="colortitle" href="mailto: &#103;&#98;&#97;&#114;&#114;&#111;&#64;&#117;&#99;&#111;&#108;&#105;&#99;&#107;&#46;&#111;&#114;&#103;"> Guillermo Barro</a></br>
+	  
+      </td>
+    </tr>
+  </table>
+  </br>
+  </div>
+    <!-- end #wrapper -->
+    
+    <!--HELP 
+    *
+    *
+    *
+    *
+    -->
+    <div id="help-database" title="'Select field (database)'" style="display:none">  Each field (database) corresponds to a given deep field in the sky included in the Rainbow database (e.g., GOODS, AEGIS, COSMOS, etc...). Select your field of interest from the drop menu, and then the "Selection Band" menu on the right will display the available catalogs.
+    </div>
+    
+    <div id="help-table" title="'Selection Band'" style="display:none">  Each band represents a source catalog based on a selection in a photometric band (e.g., R, K, [3.6], etc..) or survey (GOODS, SHARDS, CANDELS). All the information in the Rainbow database (photometry, redshifts, stellar population properties, etc..) refers to that sample of galaxies.</p>After you select an option from the drop menu, the footprint of the selection band in the chosen field along with the available surveys in that area will be shown in the frame on the right.</p>Basic information about the catalog is also given: central coordinates, version (date), number of sources in the catalog, and area covered.
+    </div>
+    
+    <div id="help-sample" title="'Build your sample'" style="display:none"> 
+      <p>After choosing a 'field' and 'selection band' in the menus above, click the button below.</p>
+      <p>A new page will open where you can query the Rainbow database and build a subsample of sources based on properties such as photometry, redshifts, colors, masses, SFRs, etc.).</p> 
+      <p>You can also query the database for your own sample, uploading your own catalog which will be cross-matched (by coordinates) to the sources in the Rainbow database.</p>
+    </div>
+    
+    <div id="help-coords" title="'Coordinate search'" style="display:none"> 
+      <p>1) After selecting a field + band in the menus above, type the galaxy's R.A. and Declination (either in hours or degrees) and chose a search radius (in arcsec) to perform your search. If a match is found, you will be taken to the galaxy's page.<p> 2) This page includes a summary of relevant photometric and stellar population parameters along with a Figure of the galaxy SED, and several postage stamps of the galaxy in different bands. 
+    </div>
+    
+    <div id="help-name" title="'Search by name'" style="display:none"> 
+      <p>1) After selecting a field + band in the menus above, type the galaxy ID in the box to go straight to the galaxy's page.</p><p> 2) This page includes a summary of relevant photometric and stellar population parameters along with a Figure of the galaxy SED, and several postage stamps of the galaxy in different bands.</p>
+      <p> WARNING: The galaxy ID should match the name of source in the Selection Band catalog that you have chosen above</p> 
+      <p> NOTE: The default size of the postage stamps, the color of the background and some other options can be customized on the  Postage stamp Menu at the bottom of this page. </p>
+    </div>
+    
+    <div id="help-map" title="'Clickable Map'" style="display:none"> 
+      <p> Create a map of given size (in arcmin) using the Selection band image as reference. </p>
+      <p> Each source in the catalog will be displayed as a green dot. If you click on it you will be redirected to the galaxy's webpage containing all the relevant information about that source.</p>
+      <p> A list with all the sources identified within the region of the map is also given in the page. </p>
+      <p> NOTE: Once you select a Field+Band in the 2 top menus the RA and DEC boxes will be filled with the central coordinates of the catalog.</p> 
+    </div>
+    
+    <div id="help-options" title="'Plotting options'" style="display:none"> 
+      <p>Some options might be selected to tweak what the Rainbow database will show.</p> 
+      <p>By default, postage stamps are plotted with white background and sources in black. This can be changed with the "Invert B&W colors" checkbox.</p> 
+      <p>Postage stamps can be shown with RA-DEC labels.</p>
+      <p>If you are only interested in taking a look at the SED, select "no postage stamps" (it will run faster).</p>
+      <p>Postage stamps for bands with no measured photometry can also be shown.</p>
+    </div>
+    
+    <div id="help-ack" title="'Acknowledgments'" style="display:none">
+      <p> If you make use of this database and web, please acknowledge with the following text in your publication:</br></font><font color="yellow" size="3"> <i>"This work has made use of the Rainbow Cosmological Surveys Database, which is operated by the Universidad Complutense de Madrid (UCM), partnered with the University of California Observatories at Santa Cruz (UCO/Lick,UCSC)."</i></font></p>
+      <p>The Rainbow database is operated by the Universidad Complutense de Madrid (UCM), partnered with the University of California Observatories at Santa Cruz (UCO/Lick,UCSC). The Rainbow database is partially funded by: the Spanish Programa Nacional de Astronom&iacute;a y Astrof&iacute;sica under grants AYA2015-63650-P and AYA2015-70815-ERC; the US NSF grant AST-08-08133.</p>
+    </div>
+    <!--HELP 
+    *
+    *
+    *
+    *
+    -->
+  </body>
+</html>
+
+<script type='text/javascript'>
+  function setinputvalue(quecosa,value){
+  $('form[name="galaxy_catalogs"]').find("input[name="+quecosa+"]").val(value);
+  $('form[name="galaxy_coords"]').find("input[name="+quecosa+"]").val(value);
+  $('form[name="galaxy_name"]').find("input[name="+quecosa+"]").val(value);
+  $('form[name="galaxy_map"]').find("input[name="+quecosa+"]").val(value);
+  //alert($('form[name="galaxy_catalogs"]').find("input[name="+quecosa+"]").val());
+  }
+</script>
+
+</script>
+<!--JQUERY-->
+<script type="text/javascript">
+  $(document).ready(function() {
+  $('#helplink-name').click(function() {
+  $('#help-name').dialog();
+  return false;
+  });  
+  $('#helplink-map').click(function() {
+  $('#help-map').dialog();
+  return false;
+  });
+  $('#helplink-sample').click(function() {
+  $('#help-sample').dialog();
+  return false;
+  });
+  $('#helplink-coords').click(function() {
+  $('#help-coords').dialog();
+  return false;
+  });
+  $('#helplink-database').click(function() {
+  $('#help-database').dialog();
+  return false;
+  });
+  $('#helplink-table').click(function() {
+  $('#help-table').dialog();
+  return false;
+  });
+  $('#helplink-options').click(function() {
+  $('#help-options').dialog();
+  return false;
+  });
+  $('#helplink-2').click(function() {
+  $('#help-2').dialog();
+  return false;
+  });
+  $('#helplink-3').click(function() {
+  $('#help-3').dialog();
+  return false;
+  });
+  $('#helplink-4').click(function() {
+  $('#help-4').dialog();
+  return false;
+  });
+  $('#helplink-5').click(function() {
+  $('#help-5').dialog();
+  return false;
+  });
+  $('#helplink-6').click(function() {
+  $('#help-6').dialog();
+  return false;
+  });
+  $('#helplink-7').click(function() {
+  $('#help-7').dialog();
+  return false;
+  });
+  $('#helplink-8').click(function() {
+  $('#help-8').dialog();
+  return false;
+  });
+  $('#helplink-9').click(function() {
+  $('#help-9').dialog();
+  return false;
+  });
+  $('#helplink-10').click(function() {
+  $('#help-10').dialog();
+  return false;
+  });
+  $('#helplink-11').click(function() {
+  $('#help-11').dialog();
+  return false;
+  });
+  $('#helplink-12').click(function() {
+  $('#help-12').dialog();
+  return false;
+  });
+  $('#helplink-ack').click(function() {
+  $('#help-ack').dialog();
+  return false;
+  });
+  });
+</script>    
+<!--JQUERY-->
+
+<script language="JavaScript">
+  function autoResize(id){
+  var newheight;
+  var newwidth;
+  
+  if(document.getElementById){
+  newheight=document.getElementById(id).contentWindow.document .body.scrollHeight;
+  newwidth=document.getElementById(id).contentWindow.document .body.scrollWidth;
+  }
+  
+  document.getElementById(id).height= (newheight) + "px";
+  document.getElementById(id).width= (newwidth) + "px";
+  }
+</script>

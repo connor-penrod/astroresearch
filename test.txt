@@ -1,0 +1,10 @@
+topcat -stilts plot2plane \
+   xpix=1205 ypix=392 \
+   xlabel=SpatialWeight ylabel=Features \
+   xmin=0.59 xmax=5.14 ymin=-0.5 ymax=4 \
+   legend=true \
+   layer=Mark \
+      in='match(1,2)' \
+      x=SpatialWeight y=Features \
+      shading=auto size=5 \
+      leglabel='3: All' 

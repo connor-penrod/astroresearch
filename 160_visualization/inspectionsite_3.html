@@ -1,0 +1,2416 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Inspection for GEMS objects</title>
+</head>
+<body>
+<h1>Objects</h1>
+Name: <input type="text" name="Name"><br><p></p>
+<div style="text-align:left;">
+Load a previously saved file:<input type="file" id="fileToLoad"><button onclick="loadFileAsText()">Load Selected File</button>
+</div><p></p>
+<table style="width:90%" align="center">
+	<tr>
+		<th style="text-align:left">ID</th>
+		<th style="text-align:center">GEMS V1 Cutout</th>
+		<th style="text-align:center">hlf gds cutout</th>
+		<th style="text-align:left">Inspection</th>
+	</tr>
+	<tr>
+		<td style="text-align:left" width="10%">466002</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466002.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466002"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466002"> Nearby<br>
+			<input type="checkbox" name="compact" value="466002"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466002"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466002"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466002"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466002"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466005</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466005.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466005"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466005"> Nearby<br>
+			<input type="checkbox" name="compact" value="466005"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466005"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466005"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466005"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466005"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466009</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466009.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466009"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466009"> Nearby<br>
+			<input type="checkbox" name="compact" value="466009"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466009"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466009"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466009"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466009"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466011</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466011.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466011"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466011"> Nearby<br>
+			<input type="checkbox" name="compact" value="466011"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466011"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466011"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466011"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466011"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466017</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466017.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466017.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466017"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466017"> Nearby<br>
+			<input type="checkbox" name="compact" value="466017"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466017"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466017"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466017"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466017"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466021</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466021.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466021"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466021"> Nearby<br>
+			<input type="checkbox" name="compact" value="466021"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466021"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466021"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466021"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466021"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466024</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466024.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466024.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466024"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466024"> Nearby<br>
+			<input type="checkbox" name="compact" value="466024"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466024"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466024"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466024"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466024"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466025</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466025.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466025.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466025"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466025"> Nearby<br>
+			<input type="checkbox" name="compact" value="466025"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466025"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466025"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466025"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466025"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466026</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466026.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466026.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466026"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466026"> Nearby<br>
+			<input type="checkbox" name="compact" value="466026"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466026"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466026"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466026"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466026"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466027</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466027.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466027"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466027"> Nearby<br>
+			<input type="checkbox" name="compact" value="466027"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466027"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466027"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466027"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466027"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466028</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466028.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466028.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466028"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466028"> Nearby<br>
+			<input type="checkbox" name="compact" value="466028"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466028"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466028"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466028"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466028"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466034</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466034.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466034.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466034"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466034"> Nearby<br>
+			<input type="checkbox" name="compact" value="466034"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466034"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466034"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466034"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466034"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466042</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466042.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466042.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466042"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466042"> Nearby<br>
+			<input type="checkbox" name="compact" value="466042"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466042"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466042"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466042"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466042"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466043</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466043.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466043"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466043"> Nearby<br>
+			<input type="checkbox" name="compact" value="466043"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466043"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466043"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466043"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466043"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466047</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466047.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466047"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466047"> Nearby<br>
+			<input type="checkbox" name="compact" value="466047"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466047"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466047"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466047"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466047"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466049</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466049.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466049.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466049"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466049"> Nearby<br>
+			<input type="checkbox" name="compact" value="466049"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466049"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466049"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466049"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466049"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466050</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466050.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466050.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466050"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466050"> Nearby<br>
+			<input type="checkbox" name="compact" value="466050"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466050"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466050"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466050"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466050"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466056</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466056.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466056.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466056"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466056"> Nearby<br>
+			<input type="checkbox" name="compact" value="466056"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466056"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466056"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466056"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466056"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466058</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466058.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466058.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466058"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466058"> Nearby<br>
+			<input type="checkbox" name="compact" value="466058"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466058"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466058"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466058"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466058"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466059</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466059.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466059.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466059"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466059"> Nearby<br>
+			<input type="checkbox" name="compact" value="466059"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466059"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466059"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466059"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466059"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466060</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466060.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466060.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466060"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466060"> Nearby<br>
+			<input type="checkbox" name="compact" value="466060"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466060"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466060"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466060"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466060"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466063</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466063.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466063"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466063"> Nearby<br>
+			<input type="checkbox" name="compact" value="466063"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466063"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466063"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466063"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466063"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466065</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466065.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466065.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466065"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466065"> Nearby<br>
+			<input type="checkbox" name="compact" value="466065"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466065"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466065"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466065"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466065"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466067</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466067.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466067"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466067"> Nearby<br>
+			<input type="checkbox" name="compact" value="466067"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466067"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466067"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466067"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466067"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466068</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466068.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466068"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466068"> Nearby<br>
+			<input type="checkbox" name="compact" value="466068"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466068"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466068"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466068"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466068"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466069</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466069.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466069.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466069"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466069"> Nearby<br>
+			<input type="checkbox" name="compact" value="466069"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466069"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466069"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466069"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466069"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466070</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466070.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466070.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466070"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466070"> Nearby<br>
+			<input type="checkbox" name="compact" value="466070"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466070"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466070"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466070"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466070"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466075</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466075.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466075.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466075"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466075"> Nearby<br>
+			<input type="checkbox" name="compact" value="466075"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466075"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466075"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466075"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466075"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466076</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466076.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466076.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466076"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466076"> Nearby<br>
+			<input type="checkbox" name="compact" value="466076"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466076"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466076"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466076"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466076"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466077</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466077.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466077"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466077"> Nearby<br>
+			<input type="checkbox" name="compact" value="466077"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466077"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466077"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466077"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466077"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466078</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466078.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466078.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466078"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466078"> Nearby<br>
+			<input type="checkbox" name="compact" value="466078"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466078"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466078"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466078"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466078"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466082</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466082.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466082.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466082"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466082"> Nearby<br>
+			<input type="checkbox" name="compact" value="466082"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466082"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466082"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466082"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466082"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466084</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466084.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466084"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466084"> Nearby<br>
+			<input type="checkbox" name="compact" value="466084"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466084"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466084"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466084"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466084"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466086</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466086.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466086"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466086"> Nearby<br>
+			<input type="checkbox" name="compact" value="466086"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466086"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466086"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466086"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466086"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466088</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466088.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466088"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466088"> Nearby<br>
+			<input type="checkbox" name="compact" value="466088"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466088"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466088"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466088"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466088"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466090</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466090.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466090.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466090"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466090"> Nearby<br>
+			<input type="checkbox" name="compact" value="466090"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466090"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466090"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466090"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466090"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466092</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466092.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466092.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466092"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466092"> Nearby<br>
+			<input type="checkbox" name="compact" value="466092"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466092"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466092"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466092"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466092"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466095</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466095.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466095.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466095"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466095"> Nearby<br>
+			<input type="checkbox" name="compact" value="466095"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466095"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466095"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466095"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466095"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466096</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466096.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466096"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466096"> Nearby<br>
+			<input type="checkbox" name="compact" value="466096"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466096"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466096"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466096"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466096"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466097</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466097.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466097.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466097"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466097"> Nearby<br>
+			<input type="checkbox" name="compact" value="466097"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466097"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466097"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466097"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466097"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466105</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466105.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466105"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466105"> Nearby<br>
+			<input type="checkbox" name="compact" value="466105"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466105"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466105"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466105"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466105"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466108</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466108.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466108.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466108"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466108"> Nearby<br>
+			<input type="checkbox" name="compact" value="466108"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466108"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466108"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466108"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466108"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466109</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466109.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466109"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466109"> Nearby<br>
+			<input type="checkbox" name="compact" value="466109"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466109"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466109"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466109"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466109"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466110</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466110.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466110.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466110"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466110"> Nearby<br>
+			<input type="checkbox" name="compact" value="466110"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466110"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466110"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466110"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466110"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466112</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466112.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466112.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466112"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466112"> Nearby<br>
+			<input type="checkbox" name="compact" value="466112"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466112"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466112"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466112"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466112"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466114</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466114.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466114.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466114"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466114"> Nearby<br>
+			<input type="checkbox" name="compact" value="466114"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466114"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466114"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466114"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466114"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466116</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466116.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466116.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466116"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466116"> Nearby<br>
+			<input type="checkbox" name="compact" value="466116"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466116"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466116"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466116"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466116"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466117</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466117.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466117.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466117"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466117"> Nearby<br>
+			<input type="checkbox" name="compact" value="466117"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466117"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466117"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466117"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466117"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466118</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466118.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466118.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466118"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466118"> Nearby<br>
+			<input type="checkbox" name="compact" value="466118"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466118"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466118"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466118"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466118"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466122</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466122.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466122.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466122"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466122"> Nearby<br>
+			<input type="checkbox" name="compact" value="466122"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466122"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466122"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466122"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466122"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466123</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466123.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466123.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466123"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466123"> Nearby<br>
+			<input type="checkbox" name="compact" value="466123"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466123"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466123"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466123"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466123"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466126</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466126.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466126.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466126"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466126"> Nearby<br>
+			<input type="checkbox" name="compact" value="466126"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466126"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466126"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466126"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466126"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466128</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466128.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466128.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466128"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466128"> Nearby<br>
+			<input type="checkbox" name="compact" value="466128"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466128"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466128"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466128"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466128"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466131</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466131.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466131"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466131"> Nearby<br>
+			<input type="checkbox" name="compact" value="466131"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466131"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466131"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466131"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466131"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466132</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466132.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466132.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466132"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466132"> Nearby<br>
+			<input type="checkbox" name="compact" value="466132"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466132"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466132"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466132"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466132"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466134</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466134.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466134"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466134"> Nearby<br>
+			<input type="checkbox" name="compact" value="466134"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466134"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466134"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466134"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466134"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466136</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466136.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466136"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466136"> Nearby<br>
+			<input type="checkbox" name="compact" value="466136"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466136"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466136"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466136"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466136"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466137</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466137.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466137"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466137"> Nearby<br>
+			<input type="checkbox" name="compact" value="466137"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466137"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466137"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466137"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466137"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466140</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466140.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466140"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466140"> Nearby<br>
+			<input type="checkbox" name="compact" value="466140"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466140"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466140"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466140"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466140"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466143</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466143.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466143.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466143"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466143"> Nearby<br>
+			<input type="checkbox" name="compact" value="466143"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466143"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466143"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466143"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466143"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466145</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466145.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466145.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466145"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466145"> Nearby<br>
+			<input type="checkbox" name="compact" value="466145"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466145"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466145"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466145"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466145"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466146</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466146.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466146"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466146"> Nearby<br>
+			<input type="checkbox" name="compact" value="466146"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466146"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466146"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466146"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466146"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466154</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466154.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466154"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466154"> Nearby<br>
+			<input type="checkbox" name="compact" value="466154"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466154"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466154"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466154"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466154"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466155</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466155.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466155"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466155"> Nearby<br>
+			<input type="checkbox" name="compact" value="466155"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466155"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466155"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466155"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466155"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466156</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466156.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466156"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466156"> Nearby<br>
+			<input type="checkbox" name="compact" value="466156"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466156"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466156"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466156"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466156"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466158</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466158.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466158.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466158"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466158"> Nearby<br>
+			<input type="checkbox" name="compact" value="466158"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466158"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466158"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466158"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466158"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466162</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466162.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466162.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466162"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466162"> Nearby<br>
+			<input type="checkbox" name="compact" value="466162"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466162"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466162"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466162"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466162"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466164</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466164.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466164.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466164"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466164"> Nearby<br>
+			<input type="checkbox" name="compact" value="466164"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466164"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466164"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466164"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466164"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466174</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466174.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466174.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466174"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466174"> Nearby<br>
+			<input type="checkbox" name="compact" value="466174"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466174"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466174"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466174"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466174"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466175</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466175.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466175.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466175"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466175"> Nearby<br>
+			<input type="checkbox" name="compact" value="466175"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466175"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466175"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466175"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466175"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466178</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466178.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466178.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466178"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466178"> Nearby<br>
+			<input type="checkbox" name="compact" value="466178"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466178"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466178"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466178"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466178"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466179</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466179.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466179.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466179"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466179"> Nearby<br>
+			<input type="checkbox" name="compact" value="466179"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466179"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466179"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466179"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466179"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466183</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466183.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466183.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466183"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466183"> Nearby<br>
+			<input type="checkbox" name="compact" value="466183"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466183"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466183"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466183"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466183"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466184</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466184.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466184.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466184"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466184"> Nearby<br>
+			<input type="checkbox" name="compact" value="466184"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466184"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466184"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466184"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466184"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466186</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466186.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466186.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466186"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466186"> Nearby<br>
+			<input type="checkbox" name="compact" value="466186"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466186"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466186"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466186"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466186"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466187</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466187.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466187.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466187"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466187"> Nearby<br>
+			<input type="checkbox" name="compact" value="466187"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466187"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466187"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466187"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466187"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466190</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466190.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466190.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466190"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466190"> Nearby<br>
+			<input type="checkbox" name="compact" value="466190"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466190"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466190"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466190"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466190"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466191</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466191.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466191.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466191"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466191"> Nearby<br>
+			<input type="checkbox" name="compact" value="466191"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466191"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466191"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466191"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466191"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466192</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466192.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466192.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466192"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466192"> Nearby<br>
+			<input type="checkbox" name="compact" value="466192"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466192"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466192"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466192"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466192"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466194</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466194.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466194.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466194"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466194"> Nearby<br>
+			<input type="checkbox" name="compact" value="466194"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466194"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466194"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466194"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466194"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466195</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466195.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466195.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466195"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466195"> Nearby<br>
+			<input type="checkbox" name="compact" value="466195"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466195"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466195"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466195"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466195"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466196</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466196.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466196.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466196"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466196"> Nearby<br>
+			<input type="checkbox" name="compact" value="466196"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466196"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466196"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466196"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466196"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466198</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466198.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466198.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466198"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466198"> Nearby<br>
+			<input type="checkbox" name="compact" value="466198"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466198"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466198"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466198"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466198"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466208</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466208.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466208.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466208"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466208"> Nearby<br>
+			<input type="checkbox" name="compact" value="466208"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466208"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466208"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466208"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466208"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466210</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466210.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_466210.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466210"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466210"> Nearby<br>
+			<input type="checkbox" name="compact" value="466210"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466210"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466210"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466210"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466210"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466211</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466211.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466211"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466211"> Nearby<br>
+			<input type="checkbox" name="compact" value="466211"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466211"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466211"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466211"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466211"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">466212</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_466212.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="466212"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="466212"> Nearby<br>
+			<input type="checkbox" name="compact" value="466212"> Compact<br>
+			<input type="checkbox" name="offcenter" value="466212"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="466212"> Irregular<br>
+			<input type="checkbox" name="problematic" value="466212"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="466212"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470006</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470006.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470006"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470006"> Nearby<br>
+			<input type="checkbox" name="compact" value="470006"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470006"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470006"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470006"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470006"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470008</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470008.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470008.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470008"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470008"> Nearby<br>
+			<input type="checkbox" name="compact" value="470008"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470008"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470008"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470008"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470008"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470010</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470010.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470010.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470010"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470010"> Nearby<br>
+			<input type="checkbox" name="compact" value="470010"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470010"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470010"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470010"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470010"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470011</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470011.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470011.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470011"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470011"> Nearby<br>
+			<input type="checkbox" name="compact" value="470011"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470011"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470011"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470011"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470011"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470013</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470013.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470013.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470013"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470013"> Nearby<br>
+			<input type="checkbox" name="compact" value="470013"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470013"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470013"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470013"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470013"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470014</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470014.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470014"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470014"> Nearby<br>
+			<input type="checkbox" name="compact" value="470014"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470014"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470014"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470014"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470014"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470017</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470017.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470017.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470017"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470017"> Nearby<br>
+			<input type="checkbox" name="compact" value="470017"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470017"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470017"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470017"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470017"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470019</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470019.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470019.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470019"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470019"> Nearby<br>
+			<input type="checkbox" name="compact" value="470019"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470019"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470019"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470019"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470019"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470028</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470028.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470028"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470028"> Nearby<br>
+			<input type="checkbox" name="compact" value="470028"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470028"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470028"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470028"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470028"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470029</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470029.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470029.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470029"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470029"> Nearby<br>
+			<input type="checkbox" name="compact" value="470029"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470029"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470029"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470029"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470029"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470031</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470031.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470031"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470031"> Nearby<br>
+			<input type="checkbox" name="compact" value="470031"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470031"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470031"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470031"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470031"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470032</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470032.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470032.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470032"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470032"> Nearby<br>
+			<input type="checkbox" name="compact" value="470032"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470032"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470032"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470032"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470032"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470033</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470033.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470033"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470033"> Nearby<br>
+			<input type="checkbox" name="compact" value="470033"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470033"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470033"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470033"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470033"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470034</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470034.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470034.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470034"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470034"> Nearby<br>
+			<input type="checkbox" name="compact" value="470034"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470034"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470034"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470034"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470034"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470035</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470035.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470035.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470035"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470035"> Nearby<br>
+			<input type="checkbox" name="compact" value="470035"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470035"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470035"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470035"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470035"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470036</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470036.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470036.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470036"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470036"> Nearby<br>
+			<input type="checkbox" name="compact" value="470036"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470036"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470036"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470036"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470036"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470038</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470038.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470038"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470038"> Nearby<br>
+			<input type="checkbox" name="compact" value="470038"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470038"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470038"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470038"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470038"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470039</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470039.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470039.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470039"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470039"> Nearby<br>
+			<input type="checkbox" name="compact" value="470039"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470039"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470039"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470039"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470039"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470041</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470041.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470041.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470041"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470041"> Nearby<br>
+			<input type="checkbox" name="compact" value="470041"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470041"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470041"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470041"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470041"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470047</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470047.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470047"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470047"> Nearby<br>
+			<input type="checkbox" name="compact" value="470047"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470047"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470047"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470047"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470047"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470049</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470049.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470049.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470049"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470049"> Nearby<br>
+			<input type="checkbox" name="compact" value="470049"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470049"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470049"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470049"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470049"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470050</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470050.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470050"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470050"> Nearby<br>
+			<input type="checkbox" name="compact" value="470050"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470050"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470050"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470050"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470050"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470056</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470056.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470056"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470056"> Nearby<br>
+			<input type="checkbox" name="compact" value="470056"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470056"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470056"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470056"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470056"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470057</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470057.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470057"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470057"> Nearby<br>
+			<input type="checkbox" name="compact" value="470057"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470057"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470057"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470057"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470057"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470065</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470065.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470065"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470065"> Nearby<br>
+			<input type="checkbox" name="compact" value="470065"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470065"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470065"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470065"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470065"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470067</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470067.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470067"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470067"> Nearby<br>
+			<input type="checkbox" name="compact" value="470067"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470067"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470067"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470067"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470067"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470070</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470070.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470070"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470070"> Nearby<br>
+			<input type="checkbox" name="compact" value="470070"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470070"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470070"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470070"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470070"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470071</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470071.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470071"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470071"> Nearby<br>
+			<input type="checkbox" name="compact" value="470071"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470071"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470071"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470071"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470071"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470072</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470072.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470072"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470072"> Nearby<br>
+			<input type="checkbox" name="compact" value="470072"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470072"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470072"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470072"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470072"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470075</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470075.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470075.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470075"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470075"> Nearby<br>
+			<input type="checkbox" name="compact" value="470075"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470075"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470075"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470075"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470075"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470076</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470076.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470076.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470076"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470076"> Nearby<br>
+			<input type="checkbox" name="compact" value="470076"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470076"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470076"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470076"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470076"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470081</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470081.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470081"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470081"> Nearby<br>
+			<input type="checkbox" name="compact" value="470081"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470081"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470081"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470081"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470081"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470085</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470085.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470085"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470085"> Nearby<br>
+			<input type="checkbox" name="compact" value="470085"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470085"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470085"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470085"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470085"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470089</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470089.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470089"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470089"> Nearby<br>
+			<input type="checkbox" name="compact" value="470089"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470089"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470089"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470089"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470089"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470091</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470091.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470091"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470091"> Nearby<br>
+			<input type="checkbox" name="compact" value="470091"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470091"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470091"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470091"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470091"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470092</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470092.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470092"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470092"> Nearby<br>
+			<input type="checkbox" name="compact" value="470092"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470092"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470092"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470092"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470092"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470093</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470093.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470093.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470093"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470093"> Nearby<br>
+			<input type="checkbox" name="compact" value="470093"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470093"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470093"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470093"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470093"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470100</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470100.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470100"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470100"> Nearby<br>
+			<input type="checkbox" name="compact" value="470100"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470100"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470100"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470100"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470100"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470101</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470101.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470101.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470101"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470101"> Nearby<br>
+			<input type="checkbox" name="compact" value="470101"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470101"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470101"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470101"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470101"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470105</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470105.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470105.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470105"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470105"> Nearby<br>
+			<input type="checkbox" name="compact" value="470105"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470105"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470105"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470105"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470105"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470108</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470108.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470108.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470108"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470108"> Nearby<br>
+			<input type="checkbox" name="compact" value="470108"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470108"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470108"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470108"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470108"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470111</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470111.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470111"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470111"> Nearby<br>
+			<input type="checkbox" name="compact" value="470111"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470111"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470111"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470111"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470111"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470112</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470112.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470112.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470112"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470112"> Nearby<br>
+			<input type="checkbox" name="compact" value="470112"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470112"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470112"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470112"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470112"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470116</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470116.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470116"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470116"> Nearby<br>
+			<input type="checkbox" name="compact" value="470116"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470116"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470116"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470116"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470116"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470117</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470117.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470117"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470117"> Nearby<br>
+			<input type="checkbox" name="compact" value="470117"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470117"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470117"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470117"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470117"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470121</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470121.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470121"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470121"> Nearby<br>
+			<input type="checkbox" name="compact" value="470121"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470121"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470121"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470121"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470121"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470129</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470129.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470129.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470129"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470129"> Nearby<br>
+			<input type="checkbox" name="compact" value="470129"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470129"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470129"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470129"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470129"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470133</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470133.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470133.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470133"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470133"> Nearby<br>
+			<input type="checkbox" name="compact" value="470133"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470133"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470133"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470133"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470133"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470136</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470136.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470136.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470136"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470136"> Nearby<br>
+			<input type="checkbox" name="compact" value="470136"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470136"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470136"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470136"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470136"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470137</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470137.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_470137.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470137"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470137"> Nearby<br>
+			<input type="checkbox" name="compact" value="470137"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470137"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470137"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470137"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470137"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470139</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470139.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470139"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470139"> Nearby<br>
+			<input type="checkbox" name="compact" value="470139"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470139"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470139"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470139"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470139"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">470142</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_470142.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="470142"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="470142"> Nearby<br>
+			<input type="checkbox" name="compact" value="470142"> Compact<br>
+			<input type="checkbox" name="offcenter" value="470142"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="470142"> Irregular<br>
+			<input type="checkbox" name="problematic" value="470142"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="470142"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475002</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475002.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475002"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475002"> Nearby<br>
+			<input type="checkbox" name="compact" value="475002"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475002"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475002"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475002"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475002"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475003</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475003.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475003"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475003"> Nearby<br>
+			<input type="checkbox" name="compact" value="475003"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475003"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475003"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475003"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475003"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475006</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475006.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475006"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475006"> Nearby<br>
+			<input type="checkbox" name="compact" value="475006"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475006"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475006"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475006"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475006"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475009</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475009.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475009"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475009"> Nearby<br>
+			<input type="checkbox" name="compact" value="475009"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475009"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475009"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475009"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475009"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475010</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475010.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475010"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475010"> Nearby<br>
+			<input type="checkbox" name="compact" value="475010"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475010"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475010"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475010"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475010"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475012</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475012.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475012"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475012"> Nearby<br>
+			<input type="checkbox" name="compact" value="475012"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475012"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475012"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475012"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475012"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475014</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475014.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475014.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475014"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475014"> Nearby<br>
+			<input type="checkbox" name="compact" value="475014"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475014"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475014"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475014"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475014"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475016</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475016.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475016.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475016"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475016"> Nearby<br>
+			<input type="checkbox" name="compact" value="475016"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475016"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475016"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475016"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475016"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475026</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475026.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475026"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475026"> Nearby<br>
+			<input type="checkbox" name="compact" value="475026"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475026"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475026"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475026"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475026"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475031</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475031.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475031.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475031"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475031"> Nearby<br>
+			<input type="checkbox" name="compact" value="475031"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475031"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475031"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475031"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475031"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475033</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475033.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475033.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475033"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475033"> Nearby<br>
+			<input type="checkbox" name="compact" value="475033"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475033"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475033"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475033"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475033"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475039</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475039.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475039"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475039"> Nearby<br>
+			<input type="checkbox" name="compact" value="475039"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475039"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475039"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475039"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475039"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475040</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475040.fits.pdf.png" width="100%"></td>
+		<td width="35%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475040"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475040"> Nearby<br>
+			<input type="checkbox" name="compact" value="475040"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475040"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475040"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475040"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475040"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475045</td>
+		<td width="35%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475045.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475045"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475045"> Nearby<br>
+			<input type="checkbox" name="compact" value="475045"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475045"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475045"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475045"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475045"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475053</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475053.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475053.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475053"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475053"> Nearby<br>
+			<input type="checkbox" name="compact" value="475053"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475053"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475053"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475053"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475053"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475067</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475067.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475067.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475067"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475067"> Nearby<br>
+			<input type="checkbox" name="compact" value="475067"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475067"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475067"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475067"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475067"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475075</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475075.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475075.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475075"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475075"> Nearby<br>
+			<input type="checkbox" name="compact" value="475075"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475075"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475075"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475075"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475075"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475080</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475080.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475080.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475080"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475080"> Nearby<br>
+			<input type="checkbox" name="compact" value="475080"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475080"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475080"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475080"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475080"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475083</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475083.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475083.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475083"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475083"> Nearby<br>
+			<input type="checkbox" name="compact" value="475083"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475083"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475083"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475083"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475083"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475087</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475087.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475087.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475087"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475087"> Nearby<br>
+			<input type="checkbox" name="compact" value="475087"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475087"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475087"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475087"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475087"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475091</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475091.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475091.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475091"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475091"> Nearby<br>
+			<input type="checkbox" name="compact" value="475091"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475091"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475091"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475091"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475091"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475097</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475097.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475097.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475097"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475097"> Nearby<br>
+			<input type="checkbox" name="compact" value="475097"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475097"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475097"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475097"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475097"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475101</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475101.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475101.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475101"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475101"> Nearby<br>
+			<input type="checkbox" name="compact" value="475101"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475101"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475101"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475101"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475101"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475102</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475102.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475102.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475102"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475102"> Nearby<br>
+			<input type="checkbox" name="compact" value="475102"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475102"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475102"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475102"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475102"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+	<tr>
+		<td style="text-align:left" width="10%">475121</td>
+		<td style="text-align:center" width="35%"><img src="images/gems_v1_cutout_pdf/gems_v1_cutout_475121.fits.pdf.png" width="100%"></td>
+		<td style="text-align:center" width="35%"><img src="images/hlf_gds_cutout_pdf/hlf_gds_cutout_475121.fits.pdf.png" width="100%"></td>
+		<td width=20%">
+			<input type="checkbox" name="merger" value="475121"> Merger_or_Pair<br>
+			<input type="checkbox" name="nearby" value="475121"> Nearby<br>
+			<input type="checkbox" name="compact" value="475121"> Compact<br>
+			<input type="checkbox" name="offcenter" value="475121"> Off_Center<br>
+			<input type="checkbox" name="irregular" value="475121"> Irregular<br>
+			<input type="checkbox" name="problematic" value="475121"> Problematic<br>
+			<input type="checkbox" name="diffuse" value="475121"> Faint_or_Diffuse<br>
+			<input name="comment" value=""> Comment<br>
+		</td>
+</table>
+<button onclick="download('', 'qualityvalues.txt', 'text/plain')">Click here to save your choices</button>
+<a href="" id="a">Click here to download your saved choices</a>
+<script>
+	function download(text, name, type) {
+		var mergers = document.getElementsByName("merger");
+		var nearbys = document.getElementsByName("nearby");
+		var compacts = document.getElementsByName("compact");
+		var offcenters = document.getElementsByName("offcenter");
+		var irregulars = document.getElementsByName("irregular");
+		var problematics = document.getElementsByName("problematic");
+		var diffuses = document.getElementsByName("diffuse");
+		var checkername = document.getElementsByName("Name");
+		var comments = document.getElementsByName("comment");
+		var texttosave = "";
+		texttosave+=checkername[0].value+"\n";
+		texttosave+="ID	Inspection Keys\n";
+		var i;
+		for (i=0; i < mergers.length; i++) {
+			texttosave+=mergers[i].value
+			if (mergers[i].checked) {
+				texttosave+="	, merger";
+			}
+			if (nearbys[i].checked) {
+				texttosave+="	, nearby";
+			}
+			if (compacts[i].checked) {
+				texttosave+="	, compact";
+			}
+			if (offcenters[i].checked) {
+				texttosave+="	, off_center";
+			}
+			if (irregulars[i].checked) {
+				texttosave+="	, irregular";
+			}
+			if (problematics[i].checked) {
+				texttosave+="	, problematic";
+			}
+			if (diffuses[i].checked) {
+				texttosave+="	, diffuse";
+			}
+			if (comments[i].value!="") {
+				texttosave+="	, Comment: "+comments[i].value;
+			}
+			texttosave+="\n";
+		}
+		var a = document.getElementById("a");
+		var file = new Blob([texttosave], {type: type});
+		a.href = URL.createObjectURL(file);
+		a.download = name;
+	}
+</script>
+<script>
+	function loadFileAsText() {
+		var checkername = document.getElementsByName("Name");
+		var mergers = document.getElementsByName("merger");
+		var nearbys = document.getElementsByName("nearby");
+		var compacts = document.getElementsByName("compact");
+		var offcenters = document.getElementsByName("offcenter");
+		var irregulars = document.getElementsByName("irregular");
+		var problematics = document.getElementsByName("problematic");
+		var diffuses = document.getElementsByName("diffuse");
+		var comments = document.getElementsByName("comment");
+		var fileToLoad = document.getElementById("fileToLoad").files[0];
+		var fileReader = new FileReader();
+		fileReader.onload = function(fileLoadedEvent){
+			var textFromFileLoaded = fileLoadedEvent.target.result;
+			inputdata = textFromFileLoaded.split("\n");
+			checkername[0].value=inputdata[0];
+			var i;
+			for (i=2; i<inputdata.length; i++) {
+				if (inputdata[i].indexOf("merger")!=-1) {
+					mergers[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("nearby")!=-1) {
+					nearbys[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("compact")!=-1) {
+					compacts[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("off_center")!=-1) {
+					offcenters[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("irregular")!=-1) {
+					irregulars[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("problematic")!=-1) {
+					problematics[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("diffuse")!=-1) {
+					diffuses[i-2].checked=true
+				}
+				if (inputdata[i].indexOf("Comment")!=-1) {
+					comments[i-2].value=inputdata[i].substring(8+inputdata[i].indexOf("Comment"))
+				}
+			}
+		}
+		fileReader.readAsText(fileToLoad);
+	}
+</script>
+</body>
+</html>

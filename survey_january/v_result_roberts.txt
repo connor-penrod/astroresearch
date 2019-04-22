@@ -1,0 +1,164 @@
+466002	, nearby
+466005
+466009	, irregular
+466011	, merger
+466017	, compact
+466021	, merger	, compact	, irregular
+466024	, diffuse	, Comment:  Not there
+466025	, merger	, diffuse
+466026	, compact
+466027
+466028	, nearby	, problematic
+466034
+466042	, nearby	, diffuse
+466043	, nearby	, off_center
+466047	, nearby	, compact
+466049	, nearby	, off_center	, problematic
+466050	, off_center	, problematic
+466056	, merger
+466058	, nearby	, diffuse
+466059	, nearby	, off_center
+466060	, problematic
+466063	, diffuse	, Comment:  Not There
+466065	, merger	, compact
+466067	, merger	, nearby
+466068	, off_center
+466069	, merger
+466070	, nearby
+466075	, nearby	, compact	, irregular
+466076	, nearby	, irregular
+466077	, irregular
+466078	, merger	, nearby
+466082
+466084	, compact
+466086	, nearby	, irregular
+466088	, nearby	, irregular
+466090	, merger	, nearby
+466092	, diffuse	, Comment:  Not There
+466095	, nearby	, compact
+466096	, nearby	, compact
+466097	, merger	, nearby
+466105	, irregular
+466108	, diffuse	, Comment:  Not There
+466109
+466110	, off_center	, diffuse
+466112	, compact	, off_center
+466114	, compact	, problematic
+466116	, nearby
+466117	, compact	, off_center
+466118
+466122	, merger
+466123	, merger	, nearby	, irregular
+466126	, nearby
+466128	, merger	, nearby
+466131	, nearby	, irregular
+466132	, nearby	, irregular	, problematic
+466134	, nearby	, irregular
+466136	, off_center	, diffuse
+466137	, irregular
+466140	, compact
+466143	, compact
+466145	, diffuse	, Comment:  Not There
+466146	, nearby	, off_center	, irregular
+466154	, problematic
+466155	, diffuse	, Comment:  Not There
+466156	, problematic
+466158	, off_center	, irregular
+466162	, compact
+466164
+466174	, diffuse	, Comment:  Not there
+466175	, compact
+466178	, nearby	, irregular
+466179	, diffuse	, Comment:  Not there
+466183	, diffuse	, Comment:  Not there
+466184	, nearby	, compact	, irregular
+466186	, nearby	, irregular
+466187	, nearby	, irregular
+466190	, diffuse	, Comment:  Not there
+466191
+466192	, merger	, irregular
+466194	, diffuse
+466195	, off_center	, problematic
+466196	, nearby
+466198	, off_center
+466208	, irregular
+466210	, diffuse
+466211	, nearby
+466212	, nearby	, off_center
+470006	, nearby	, irregular
+470008	, merger	, nearby
+470010	, irregular
+470011	, nearby
+470013	, nearby
+470014
+470017	, compact
+470019	, irregular
+470028	, irregular
+470029	, compact
+470031	, merger	, irregular
+470032	, compact	, problematic
+470033	, nearby
+470034	, irregular
+470035	, nearby
+470036	, diffuse
+470038	, compact
+470039
+470041	, compact
+470047
+470049	, problematic
+470050	, nearby
+470056	, diffuse	, Comment:  Not there
+470057	, diffuse	, Comment:  Not there
+470065	, merger	, nearby
+470067	, nearby
+470070	, compact
+470071	, off_center
+470072	, nearby	, irregular
+470075	, nearby	, irregular
+470076	, nearby
+470081	, nearby
+470085	, compact
+470089
+470091	, off_center
+470092	, nearby	, off_center
+470093
+470100	, compact
+470101	, compact
+470105	, diffuse	, Comment:  Not there
+470108	, compact
+470111	, compact
+470112	, merger	, irregular
+470116	, nearby
+470117	, compact
+470121	, diffuse
+470129	, compact	, diffuse
+470133	, diffuse
+470136	, diffuse
+470137	, diffuse	, Comment:  Not there
+470139	, irregular
+470142
+475002	, compact
+475003	, irregular
+475006	, compact
+475009	, merger
+475010	, compact	, diffuse
+475012	, diffuse	, Comment:  Not there
+475014	, merger	, nearby
+475016	, nearby
+475026	, compact
+475031	, compact
+475033	, compact
+475039	, off_center	, diffuse
+475040	, diffuse
+475045	, irregular
+475053	, nearby
+475067	, compact
+475075	, merger	, nearby	, irregular
+475080	, off_center
+475083	, nearby
+475087	, compact
+475091	, diffuse	, Comment:  Not there
+475097
+475101	, diffuse	, Comment:  Not there
+475102	, off_center
+475121	, compact
